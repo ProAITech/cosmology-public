@@ -1,0 +1,192 @@
+{
+ "M50": {
+  "mean": 3.731,
+  "err": 0.078,
+  "chi2": 14.94,
+  "dof": 3,
+  "p": 0.00187,
+  "birge": 2.23,
+  "err_scaled": 0.173,
+  "spread": [
+   3.36,
+   4.6
+  ]
+ },
+ "M100": {
+  "mean": 5.845,
+  "err": 0.366,
+  "chi2": 3.18,
+  "dof": 2,
+  "p": 0.204,
+  "birge": 1.26,
+  "err_scaled": 0.461,
+  "spread": [
+   5.3,
+   7.5
+  ]
+ },
+ "vesc": {
+  "mean": 503.806,
+  "err": 6.088,
+  "chi2": 5.32,
+  "dof": 4,
+  "p": 0.256,
+  "birge": 1.15,
+  "err_scaled": 7.024,
+  "spread": [
+   484.6,
+   528.0
+  ]
+ },
+ "vesc_gaia_only": {
+  "mean": 494.916,
+  "err": 7.297,
+  "chi2": 0.4,
+  "dof": 1,
+  "p": 0.525,
+  "birge": 1.0,
+  "err_scaled": 7.297,
+  "spread": [
+   484.6,
+   497.0
+  ]
+ },
+ "vesc_other": {
+  "mean": 524.385,
+  "err": 11.059,
+  "chi2": 0.03,
+  "dof": 2,
+  "p": 0.986,
+  "birge": 1.0,
+  "err_scaled": 11.059,
+  "spread": [
+   521.0,
+   528.0
+  ]
+ },
+ "pred": {
+  "halo": {
+   "M50": 3.57,
+   "M100": 5.18,
+   "vesc_2r200": 482.4,
+   "vesc_inf": 510.8
+  },
+  "mond_pull": {
+   "e": 0.00138,
+   "M50": 3.806,
+   "M100": 5.936,
+   "vesc": 519.052,
+   "chi2_curve_tracers": 49.904
+  },
+  "mond_joint": {
+   "e": 0.00239,
+   "M50": 3.646,
+   "M100": 5.407,
+   "vesc": 503.899,
+   "chi2_curve_tracers": 42.93
+  }
+ },
+ "score": {
+  "halo": {
+   "M50": -0.93,
+   "M100": -1.44,
+   "vesc_all": -3.05,
+   "vesc_gaia": -1.72,
+   "vesc_other": -3.8
+  },
+  "mond_pull": {
+   "M50": 0.43,
+   "M100": 0.2,
+   "vesc_all": 2.17,
+   "vesc_gaia": 3.31,
+   "vesc_other": -0.48
+  },
+  "mond_joint": {
+   "M50": -0.49,
+   "M100": -0.95,
+   "vesc_all": 0.01,
+   "vesc_gaia": 1.23,
+   "vesc_other": -1.85
+  }
+ },
+ "rows": {
+  "M50": [
+   [
+    "Outer halo stars, H3+SEGUE+MagE (Brooks et al. 2026)",
+    3.36,
+    0.15,
+    0.15
+   ],
+   [
+    "Orphan stream (Erkal et al. 2019)",
+    3.8,
+    0.11,
+    0.14
+   ],
+   [
+    "Orphan-Chenab stream, S5 (Koposov et al. 2023)",
+    3.77,
+    0.19,
+    0.26
+   ],
+   [
+    "87 streams, STREAMFINDER (Ibata et al. 2024)",
+    4.6,
+    0.3,
+    0.3
+   ]
+  ],
+  "M100": [
+   [
+    "Sagittarius stream (Vasiliev et al. 2021)",
+    5.6,
+    0.4,
+    0.4
+   ],
+   [
+    "Globular clusters and satellites (Correa Magnus & Vasiliev 2022)",
+    7.5,
+    1.0,
+    1.0
+   ],
+   [
+    "Globular clusters (Eadie & Juric 2019)",
+    5.3,
+    1.2,
+    2.1
+   ]
+  ],
+  "vesc": [
+   [
+    "LAMOST K giants (Wu et al. 2025)",
+    523.7,
+    13.5,
+    12.8
+   ],
+   [
+    "Gaia DR2 (Deason et al. 2019)",
+    528.0,
+    25.0,
+    24.0
+   ],
+   [
+    "Gaia DR2 (Necib & Lin 2022)",
+    484.6,
+    7.4,
+    17.8
+   ],
+   [
+    "Gaia EDR3 (Koppelman & Helmi 2021)",
+    497.0,
+    8.0,
+    8.0
+   ],
+   [
+    "RAVE (Williams et al. 2017)",
+    521.0,
+    30.0,
+    46.0
+   ]
+  ]
+ }
+}

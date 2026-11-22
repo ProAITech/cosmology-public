@@ -1,0 +1,15 @@
+{
+ "note": "Wide-binary gravity results compiled for Workbench Entry 144 (gamma = G_eff/G; intervals as published). Velocity boosts b convert as gamma = (1+b)^2.",
+ "rows": [
+  ["Chae et al. 2026, 36 pairs with 3D velocities", 1.60, 1.46, 1.77, "MOND reading", "arXiv abstract"],
+  ["Saad & Ting 2026 (v2), same 36, orbits forward-modelled", 1.00, 0.81, 1.24, "Newton reading", "arXiv:2603.11015 v2, 9 Sep 2026"],
+  ["Saad & Ting 2026, same 36, geometric de-projection", 1.56, 1.38, 1.77, "reproduces Chae", "arXiv:2603.11015"],
+  ["Boufourou 2026, 81,088 pairs, truncated estimator (E2)", 1.045, 1.025, 1.068, "Newton within systematics", "arXiv:2608.24556"],
+  ["Boufourou 2026, mixture likelihood (E3)", 1.05, 1.04, 1.07, "triples 15%", "arXiv:2608.24556"],
+  ["This notebook, 39,602 pairs, full sample", 1.124, 1.082, 1.166, "boost 6 +/- 2%", "Entries 15, 114"],
+  ["This notebook, cleanest half", 1.040, 1.000, 1.082, "boost 2 +/- 2%", "Entries 15, 114"]
+ ],
+ "bias_band": [1.08, 1.13, "full-median estimator on Newtonian skies with 20-30% residual triples (Boufourou 2026)"],
+ "mond_galaxy": [1.37, 1.42, "galaxy-calibrated MOND, 17-19% faster orbits"],
+ "prereg": {"newton_below": 1.0404, "sharp_mond": [1.0609, 1.0816], "galaxy_mond_above": 1.25}
+}

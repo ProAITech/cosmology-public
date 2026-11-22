@@ -1,0 +1,106 @@
+{
+ "mean500": {
+  "c0": 1.5,
+  "e0_formal": 2.6,
+  "e0_jk": 3.4,
+  "slope": 0.0207,
+  "es_formal": 0.011,
+  "es_jk": 0.012,
+  "chi2_line": 6.4,
+  "chi2_flat": 9.9,
+  "dof_line": 6,
+  "z_dm": 1.52,
+  "z_pl": 0.21
+ },
+ "mean1000": {
+  "c0": 7.2,
+  "e0_formal": 3.9,
+  "e0_jk": 5.0,
+  "slope": 0.0434,
+  "es_formal": 0.0184,
+  "es_jk": 0.015,
+  "chi2_line": 1.8,
+  "chi2_flat": 7.4,
+  "dof_line": 6,
+  "z_dm": 2.17,
+  "z_pl": 1.28
+ },
+ "mean1500": {
+  "c0": 10.9,
+  "e0_formal": 6.4,
+  "e0_jk": 8.8,
+  "slope": 0.0729,
+  "es_formal": 0.0302,
+  "es_jk": 0.028,
+  "chi2_line": 3.2,
+  "chi2_flat": 9.0,
+  "dof_line": 6,
+  "z_dm": 1.65,
+  "z_pl": 1.14
+ },
+ "fit_mu": {
+  "c0": 10.3,
+  "e0_formal": 5.9,
+  "e0_jk": 7.7,
+  "slope": 0.072,
+  "es_formal": 0.0258,
+  "es_jk": 0.026,
+  "chi2_line": 2.0,
+  "chi2_flat": 9.7,
+  "dof_line": 6,
+  "z_dm": 1.81,
+  "z_pl": 1.24
+ },
+ "margin_vs_line": [
+  {
+   "mg": 0,
+   "A": 29,
+   "mu": 19.0,
+   "e": 7.1,
+   "line": 12.4,
+   "pull": 0.93
+  },
+  {
+   "mg": 0.5,
+   "A": -66,
+   "mu": 3.6,
+   "e": 7.6,
+   "line": 5.5,
+   "pull": -0.26
+  },
+  {
+   "mg": 1.0,
+   "A": -163,
+   "mu": -7.6,
+   "e": 10.0,
+   "line": -1.4,
+   "pull": -0.62
+  },
+  {
+   "mg": 1.5,
+   "A": -287,
+   "mu": -21.4,
+   "e": 13.4,
+   "line": -10.4,
+   "pull": -0.82
+  }
+ ],
+ "margin_series_slope": 0.1261,
+ "margin_series_intercept": 13.8,
+ "apparent_diff_all_R": [
+  44.0,
+  7.4
+ ],
+ "lum_wing_lo_over_hi": [
+  1.7,
+  0.35
+ ],
+ "q0_wing_lo_over_hi": [
+  1.79,
+  0.22
+ ],
+ "wing_contrast": [
+  373.5,
+  43.4
+ ]
+}

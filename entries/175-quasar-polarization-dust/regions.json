@@ -1,0 +1,379 @@
+{
+ "sector_probability": 0.4444444444444444,
+ "regions": {
+  "A1": {
+   "definition": {
+    "ra_B1950_hours": [
+     11.25,
+     14.5
+    ],
+    "z": [
+     1.0,
+     2.3
+    ],
+    "sector_deg": [
+     146.0,
+     46.0
+    ]
+   },
+   "paper_2005": {
+    "new": "27/40",
+    "full": "42/56"
+   },
+   "foreground": {
+    "median_p": 0.13968491129935504,
+    "share_of_foreground_angles_in_sector": 0.16071428571428573,
+    "mean_angle_deg": 57.876998543132814
+   },
+   "full": {
+    "n": 56,
+    "measured": {
+     "in_sector": 42,
+     "P_binomial": 3.348227366239342e-06
+    },
+    "f1": {
+     "in_sector": 41,
+     "P_binomial": 1.210551033472863e-05
+    },
+    "f1_recut": {
+     "n": 52,
+     "in_sector": 39,
+     "P_binomial": 7.500278713641563e-06
+    },
+    "fstar": {
+     "in_sector": 41,
+     "P_binomial": 1.210551033472863e-05
+    },
+    "fstar_recut": {
+     "n": 51,
+     "in_sector": 38,
+     "P_binomial": 1.2761584003732745e-05
+    },
+    "dust_only_parent_0.5": {
+     "mean_in_sector": 22.979,
+     "sd": 3.6392555681822167,
+     "share_at_or_above_measured": 0.0,
+     "uniform_expectation": 24.888888888888886
+    },
+    "dust_only_parent_0.8": {
+     "mean_in_sector": 23.6305,
+     "sd": 3.640274103384783,
+     "share_at_or_above_measured": 0.0,
+     "uniform_expectation": 24.888888888888886
+    },
+    "rayleigh": {
+     "measured": {
+      "n": 56,
+      "R": 0.3230224007412006,
+      "mean_angle": 8.39908445680073,
+      "P": 0.0026077919357344803
+     },
+     "f1": {
+      "n": 56,
+      "R": 0.34452305610088135,
+      "mean_angle": 2.6222634179762294,
+      "P": 0.0011202778369715112
+     }
+    },
+    "vtest": {
+     "direction_deg": 6.0,
+     "measured": {
+      "mean_cos": 0.3218903793839277,
+      "V": 3.4065675730964213,
+      "P": 0.00032892631849969174
+     },
+     "f1": {
+      "mean_cos": 0.34213110993517265,
+      "V": 3.6207753306678665,
+      "P": 0.000146860746707576
+     },
+     "fstar": {
+      "mean_cos": 0.3536334849053464,
+      "V": 3.742505025298642,
+      "P": 9.109744405267271e-05
+     },
+     "dust_only_parent_0.8": {
+      "mean_V": -0.38272266769315205,
+      "sd": 0.9807330309309711,
+      "share_at_or_above_measured": 0.0
+     }
+    }
+   },
+   "new": {
+    "n": 40,
+    "measured": {
+     "in_sector": 27,
+     "P_binomial": 0.002761153243998634
+    },
+    "f1": {
+     "in_sector": 27,
+     "P_binomial": 0.002761153243998634
+    },
+    "f1_recut": {
+     "n": 37,
+     "in_sector": 25,
+     "P_binomial": 0.0038542894741681877
+    },
+    "fstar": {
+     "in_sector": 27,
+     "P_binomial": 0.002761153243998634
+    },
+    "fstar_recut": {
+     "n": 36,
+     "in_sector": 24,
+     "P_binomial": 0.005975430353225696
+    },
+    "dust_only_parent_0.5": {
+     "mean_in_sector": 16.524,
+     "sd": 3.1037462235676023,
+     "share_at_or_above_measured": 0.0005,
+     "uniform_expectation": 17.77777777777778
+    },
+    "dust_only_parent_0.8": {
+     "mean_in_sector": 16.9845,
+     "sd": 3.13036089447604,
+     "share_at_or_above_measured": 0.0015,
+     "uniform_expectation": 17.77777777777778
+    },
+    "rayleigh": {
+     "measured": {
+      "n": 40,
+      "R": 0.2421719677471717,
+      "mean_angle": 17.76500663749353,
+      "P": 0.09526825148020457
+     },
+     "f1": {
+      "n": 40,
+      "R": 0.24462723437113099,
+      "mean_angle": 8.494001922124228,
+      "P": 0.09074412303467379
+     }
+    },
+    "vtest": {
+     "direction_deg": 6.0,
+     "measured": {
+      "mean_cos": 0.2220356281558451,
+      "V": 1.9859470319333437,
+      "P": 0.02351960282551242
+     },
+     "f1": {
+      "mean_cos": 0.24370081250772233,
+      "V": 2.1797263317567928,
+      "P": 0.014638876743623125
+     },
+     "fstar": {
+      "mean_cos": 0.2615136849607279,
+      "V": 2.339049506474608,
+      "P": 0.0096664357384319
+     },
+     "dust_only_parent_0.8": {
+      "mean_V": -0.26539359458124107,
+      "sd": 0.9929855097888712,
+      "share_at_or_above_measured": 0.011
+     }
+    }
+   },
+   "stars": {
+    "n": 50,
+    "share_in_sector": 0.38,
+    "rayleigh": {
+     "n": 50,
+     "R": 0.44376154602977225,
+     "mean_angle": 58.44468473887272,
+     "P": 3.4304172239050695e-05
+    },
+    "dec_range_of_quasars": [
+     -31.92138888888889,
+     37.50805555555556
+    ]
+   }
+  },
+  "A3": {
+   "definition": {
+    "ra_B1950_hours": [
+     21.333333333333332,
+     24.0
+    ],
+    "z": [
+     0.7,
+     1.5
+    ],
+    "sector_deg": [
+     84.0,
+     164.0
+    ]
+   },
+   "paper_2005": {
+    "new": "14/18",
+    "full": "24/29"
+   },
+   "foreground": {
+    "median_p": 0.20581115990023702,
+    "share_of_foreground_angles_in_sector": 0.9310344827586207,
+    "mean_angle_deg": 129.7787581710622
+   },
+   "full": {
+    "n": 29,
+    "measured": {
+     "in_sector": 24,
+     "P_binomial": 2.6203505870913958e-05
+    },
+    "f1": {
+     "in_sector": 22,
+     "P_binomial": 0.0005925170575549524
+    },
+    "f1_recut": {
+     "n": 27,
+     "in_sector": 20,
+     "P_binomial": 0.0017531687954020889
+    },
+    "fstar": {
+     "in_sector": 21,
+     "P_binomial": 0.0021580473086045783
+    },
+    "fstar_recut": {
+     "n": 22,
+     "in_sector": 17,
+     "P_binomial": 0.001815384438592262
+    },
+    "dust_only_parent_0.5": {
+     "mean_in_sector": 17.436,
+     "sd": 2.5577675984232364,
+     "share_at_or_above_measured": 0.0095,
+     "uniform_expectation": 12.888888888888888
+    },
+    "dust_only_parent_0.8": {
+     "mean_in_sector": 16.37,
+     "sd": 2.6261280003337744,
+     "share_at_or_above_measured": 0.0025,
+     "uniform_expectation": 12.888888888888888
+    },
+    "rayleigh": {
+     "measured": {
+      "n": 29,
+      "R": 0.5748242034931847,
+      "mean_angle": 126.47288017221905,
+      "P": 3.1709419135222864e-05
+     },
+     "f1": {
+      "n": 29,
+      "R": 0.5051514681989412,
+      "mean_angle": 126.01730221430454,
+      "P": 0.00040879189821713905
+     }
+    },
+    "vtest": {
+     "direction_deg": 124.0,
+     "measured": {
+      "mean_cos": 0.5726839942250083,
+      "V": 4.36143136137754,
+      "P": 6.460716664029591e-06
+     },
+     "f1": {
+      "mean_cos": 0.5038995705703943,
+      "V": 3.837584797606381,
+      "P": 6.212516736242335e-05
+     },
+     "fstar": {
+      "mean_cos": 0.35814450466894526,
+      "V": 2.7275472866707045,
+      "P": 0.003190355574405665
+     },
+     "dust_only_parent_0.8": {
+      "mean_V": 1.4252806283131054,
+      "sd": 0.9663768360330119,
+      "share_at_or_above_measured": 0.0015
+     }
+    }
+   },
+   "new": {
+    "n": 18,
+    "measured": {
+     "in_sector": 14,
+     "P_binomial": 0.004270290087252106
+    },
+    "f1": {
+     "in_sector": 12,
+     "P_binomial": 0.04866415557361713
+    },
+    "f1_recut": {
+     "n": 16,
+     "in_sector": 10,
+     "P_binomial": 0.11501899830528887
+    },
+    "fstar": {
+     "in_sector": 11,
+     "P_binomial": 0.11814091135083366
+    },
+    "fstar_recut": {
+     "n": 13,
+     "in_sector": 9,
+     "P_binomial": 0.06450722570663436
+    },
+    "dust_only_parent_0.5": {
+     "mean_in_sector": 11.122,
+     "sd": 1.9654636917943513,
+     "share_at_or_above_measured": 0.111,
+     "uniform_expectation": 8.0
+    },
+    "dust_only_parent_0.8": {
+     "mean_in_sector": 10.3085,
+     "sd": 2.089380411809354,
+     "share_at_or_above_measured": 0.0585,
+     "uniform_expectation": 8.0
+    },
+    "rayleigh": {
+     "measured": {
+      "n": 18,
+      "R": 0.4517901099127657,
+      "mean_angle": 131.59997708646767,
+      "P": 0.023087343040263573
+     },
+     "f1": {
+      "n": 18,
+      "R": 0.37391092729550723,
+      "mean_angle": 130.49625667549648,
+      "P": 0.07921378559507923
+     }
+    },
+    "vtest": {
+     "direction_deg": 124.0,
+     "measured": {
+      "mean_cos": 0.43598500284895797,
+      "V": 2.6159100170937477,
+      "P": 0.004449500300411636
+     },
+     "f1": {
+      "mean_cos": 0.3643386019331758,
+      "V": 2.186031611599055,
+      "P": 0.01440664633194137
+     },
+     "fstar": {
+      "mean_cos": 0.18185005865915627,
+      "V": 1.0911003519549376,
+      "P": 0.13761436399844096
+     },
+     "dust_only_parent_0.8": {
+      "mean_V": 1.2342272519507667,
+      "sd": 0.9661003950509786,
+      "share_at_or_above_measured": 0.077
+     }
+    }
+   },
+   "stars": {
+    "n": 17,
+    "share_in_sector": 0.7058823529411765,
+    "rayleigh": {
+     "n": 17,
+     "R": 0.40731031640755444,
+     "mean_angle": 131.75670636170537,
+     "P": 0.057449300328597255
+    },
+    "dec_range_of_quasars": [
+     -53.77611111111111,
+     28.599444444444444
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "no_cluster_field": {
+  "true_rho": null,
+  "true_inv_beta": [
+   0.0,
+   0.0
+  ],
+  "fitted_inv_beta": [
+   0.0,
+   0.0
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.0,
+    0.001
+   ],
+   [
+    0.0,
+    0.001
+   ]
+  ],
+  "rho": 0.10000000000000002,
+  "rho_95": [
+   0.10000000000000002,
+   4.0
+  ],
+  "decision": "unresolved: the 95% range of rho reaches the edge of the grid",
+  "t_by_half_range": [
+   [
+    -0.06,
+    -0.45,
+    2.5
+   ],
+   [
+    -1.16,
+    -1.77,
+    0.88
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    377,
+    575,
+    809
+   ],
+   [
+    69,
+    108,
+    171
+   ]
+  ]
+ },
+ "same_beta": {
+  "true_rho": 1.0,
+  "true_inv_beta": [
+   0.09,
+   0.09
+  ],
+  "fitted_inv_beta": [
+   0.0825,
+   0.06
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.07,
+    0.095
+   ],
+   [
+    0.03,
+    0.1075
+   ]
+  ],
+  "rho": 0.8541292682304265,
+  "rho_95": [
+   0.40766982612005753,
+   1.756743130397617
+  ],
+  "decision": "unresolved: rho = 1 is allowed but the 95% range reaches beyond 0.67-1.5",
+  "t_by_half_range": [
+   [
+    23.48,
+    4.74,
+    1.26
+   ],
+   [
+    3.89,
+    3.3,
+    0.64
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    361,
+    589,
+    858
+   ],
+   [
+    78,
+    92,
+    162
+   ]
+  ]
+ },
+ "same_beta_b": {
+  "true_rho": 1.0,
+  "true_inv_beta": [
+   0.09,
+   0.09
+  ],
+  "fitted_inv_beta": [
+   0.0875,
+   0.1
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.0775,
+    0.1
+   ],
+   [
+    0.0725,
+    0.195
+   ]
+  ],
+  "rho": 1.076225561244271,
+  "rho_95": [
+   0.7366829131451972,
+   1.9448017264472905
+  ],
+  "decision": "unresolved: rho = 1 is allowed but the 95% range reaches beyond 0.67-1.5",
+  "t_by_half_range": [
+   [
+    25.54,
+    3.57,
+    0.21
+   ],
+   [
+    8.28,
+    3.81,
+    0.79
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    384,
+    639,
+    867
+   ],
+   [
+    73,
+    117,
+    151
+   ]
+  ]
+ },
+ "same_beta_c": {
+  "true_rho": 1.0,
+  "true_inv_beta": [
+   0.09,
+   0.09
+  ],
+  "fitted_inv_beta": [
+   0.0725,
+   0.0275
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.0625,
+    0.0875
+   ],
+   [
+    0.015,
+    0.055
+   ]
+  ],
+  "rho": 0.6180050526648615,
+  "rho_95": [
+   0.2949694170803574,
+   1.3312285573970097
+  ],
+  "decision": "unresolved: rho = 1 is allowed but the 95% range reaches beyond 0.67-1.5",
+  "t_by_half_range": [
+   [
+    21.62,
+    4.26,
+    0.5
+   ],
+   [
+    3.94,
+    1.31,
+    2.03
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    392,
+    668,
+    923
+   ],
+   [
+    74,
+    115,
+    140
+   ]
+  ]
+ },
+ "same_beta_d": {
+  "true_rho": 1.0,
+  "true_inv_beta": [
+   0.09,
+   0.09
+  ],
+  "fitted_inv_beta": [
+   0.0725,
+   0.1225
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.0625,
+    0.085
+   ],
+   [
+    0.08,
+    0.165
+   ]
+  ],
+  "rho": 1.2948130314650566,
+  "rho_95": [
+   0.870069570127258,
+   1.92690428905187
+  ],
+  "decision": "unresolved: rho = 1 is allowed but the 95% range reaches beyond 0.67-1.5",
+  "t_by_half_range": [
+   [
+    24.5,
+    3.38,
+    2.35
+   ],
+   [
+    12.4,
+    2.53,
+    0.36
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    367,
+    644,
+    844
+   ],
+   [
+    68,
+    103,
+    146
+   ]
+  ]
+ },
+ "far_weaker_rho_0p5": {
+  "true_rho": 0.5,
+  "true_inv_beta": [
+   0.09,
+   0.0225
+  ],
+  "fitted_inv_beta": [
+   0.1125,
+   0.0225
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.1,
+    0.1325
+   ],
+   [
+    0.011,
+    0.045
+   ]
+  ],
+  "rho": 0.447157426077409,
+  "rho_95": [
+   0.20378371349691413,
+   0.972156614097615
+  ],
+  "decision": "weaker at higher redshift: at equal pressure the farther half has a weaker field (95% range below 1)",
+  "t_by_half_range": [
+   [
+    38.69,
+    4.63,
+    1.94
+   ],
+   [
+    3.4,
+    0.9,
+    0.92
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    376,
+    627,
+    914
+   ],
+   [
+    57,
+    104,
+    146
+   ]
+  ]
+ },
+ "far_stronger_rho_1p5": {
+  "true_rho": 1.5000000000000002,
+  "true_inv_beta": [
+   0.09,
+   0.2025
+  ],
+  "fitted_inv_beta": [
+   0.1,
+   0.22
+  ],
+  "fitted_inv_beta_68": [
+   [
+    0.0875,
+    0.12
+   ],
+   [
+    0.1575,
+    0.3
+   ]
+  ],
+  "rho": 1.4874243294818859,
+  "rho_95": [
+   1.008781216425315,
+   2.193172414306581
+  ],
+  "decision": "stronger at higher redshift: at equal pressure the farther half has a stronger field (95% range above 1)",
+  "t_by_half_range": [
+   [
+    30.01,
+    4.46,
+    1.99
+   ],
+   [
+    19.8,
+    4.34,
+    1.52
+   ]
+  ],
+  "n_by_half_range": [
+   [
+    397,
+    614,
+    820
+   ],
+   [
+    64,
+    108,
+    162
+   ]
+  ]
+ }
+}

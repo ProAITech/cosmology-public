@@ -1,0 +1,70 @@
+{
+ "flat_1": {
+  "counts": {
+   "matched": 6000,
+   "dropped_used_before": 2364,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 3636
+  },
+  "new_true": 3636,
+  "t": -0.48,
+  "net": -0.55,
+  "t_true_z": -0.69,
+  "net_true_z": -0.88,
+  "beta": 0.82,
+  "net_ratio": null,
+  "outcome": "not replicated: Entry 171's slope, seen through Quaia redshifts, is excluded at 95%"
+ },
+ "flat_2": {
+  "counts": {
+   "matched": 6000,
+   "dropped_used_before": 2453,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 3547
+  },
+  "new_true": 3547,
+  "t": -1.64,
+  "net": -1.88,
+  "t_true_z": -1.68,
+  "net_true_z": -2.13,
+  "beta": 0.81,
+  "net_ratio": null,
+  "outcome": "not replicated: Entry 171's slope, seen through Quaia redshifts, is excluded at 95%"
+ },
+ "growth_10": {
+  "counts": {
+   "matched": 6000,
+   "dropped_used_before": 2333,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 3667
+  },
+  "new_true": 3667,
+  "t": 5.64,
+  "net": 6.75,
+  "t_true_z": 3.92,
+  "net_true_z": 5.25,
+  "beta": 0.835,
+  "net_ratio": 1.285,
+  "outcome": "growth confirmed on independent sight lines (t >= +3)"
+ },
+ "growth_22": {
+  "counts": {
+   "matched": 6000,
+   "dropped_used_before": 2396,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 3604
+  },
+  "new_true": 3604,
+  "t": 5.89,
+  "net": 10.99,
+  "t_true_z": 7.91,
+  "net_true_z": 15.19,
+  "beta": 0.809,
+  "net_ratio": 0.723,
+  "outcome": "growth confirmed on independent sight lines (t >= +3)"
+ }
+}

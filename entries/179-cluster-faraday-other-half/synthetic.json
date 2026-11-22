@@ -1,0 +1,46 @@
+{
+ "no_cluster_effect": {
+  "n": {
+   "A": 112,
+   "B": 300,
+   "C": 1262
+  },
+  "t": {
+   "A": -0.79,
+   "B": 0.92,
+   "C": 0.42
+  },
+  "excess": {
+   "A": -11.7,
+   "B": 8.4,
+   "C": 1.8
+  },
+  "decision": {
+   "A": "not replicated: no excess inside R500 (t < +2)",
+   "B": "no excess at 1 to 2 R500 (|t| < 2)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)"
+  }
+ },
+ "excess_inside_R500": {
+  "n": {
+   "A": 108,
+   "B": 366,
+   "C": 1254
+  },
+  "t": {
+   "A": 9.84,
+   "B": 1.0,
+   "C": -0.18
+  },
+  "excess": {
+   "A": 143.2,
+   "B": 8.9,
+   "C": -0.8
+  },
+  "decision": {
+   "A": "replicated: the scatter inside R500 is raised (t >= +3)",
+   "B": "no excess at 1 to 2 R500 (|t| < 2)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)"
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "data": [
+  {
+   "p_lo": 0.6,
+   "p_hi": 1.0,
+   "n": 114,
+   "mean_cos2delta": 0.2893783100254056,
+   "error": 0.06622661785325219
+  },
+  {
+   "p_lo": 1.0,
+   "p_hi": 1.6,
+   "n": 95,
+   "mean_cos2delta": 0.2281610203328813,
+   "error": 0.07254762501100116
+  },
+  {
+   "p_lo": 1.6,
+   "p_hi": 3.0,
+   "n": 66,
+   "mean_cos2delta": 0.17593812830595992,
+   "error": 0.08703882797784893
+  },
+  {
+   "p_lo": 3.0,
+   "p_hi": 99.0,
+   "n": 80,
+   "mean_cos2delta": 0.19074798317781166,
+   "error": 0.07905694150420949
+  }
+ ],
+ "cases": [
+  {
+   "parent": "0.5",
+   "median_observed_p": 1.0891366615229778,
+   "link_all": 0.2423143102294582,
+   "bands": [
+    {
+     "p_lo": 0.6,
+     "p_hi": 1.0,
+     "simulated_link": 0.25929050114387253,
+     "sd_between_samples": 0.05625591341763534,
+     "mean_count": 154.3725,
+     "data_link": 0.2893783100254056,
+     "data_error": 0.06622661785325219,
+     "data_count": 114,
+     "share_of_samples_at_or_above_data": 0.2925
+    },
+    {
+     "p_lo": 1.0,
+     "p_hi": 1.6,
+     "simulated_link": 0.2567615227559339,
+     "sd_between_samples": 0.06291994685256581,
+     "mean_count": 109.5475,
+     "data_link": 0.2281610203328813,
+     "data_error": 0.07254762501100116,
+     "data_count": 95,
+     "share_of_samples_at_or_above_data": 0.6825
+    },
+    {
+     "p_lo": 1.6,
+     "p_hi": 3.0,
+     "simulated_link": 0.21281302335724434,
+     "sd_between_samples": 0.08503382755580162,
+     "mean_count": 69.475,
+     "data_link": 0.17593812830595992,
+     "data_error": 0.08703882797784893,
+     "data_count": 66,
+     "share_of_samples_at_or_above_data": 0.685
+    },
+    {
+     "p_lo": 3.0,
+     "p_hi": 99.0,
+     "simulated_link": 0.14018376924824894,
+     "sd_between_samples": 0.15462614064611,
+     "mean_count": 21.605,
+     "data_link": 0.19074798317781166,
+     "data_error": 0.07905694150420949,
+     "data_count": 80,
+     "share_of_samples_at_or_above_data": 0.3725
+    }
+   ]
+  },
+  {
+   "parent": "0.8",
+   "median_observed_p": 1.317575612278289,
+   "link_all": 0.1855664392412689,
+   "bands": [
+    {
+     "p_lo": 0.6,
+     "p_hi": 1.0,
+     "simulated_link": 0.2005299106663048,
+     "sd_between_samples": 0.06370351261891867,
+     "mean_count": 112.44,
+     "data_link": 0.2893783100254056,
+     "data_error": 0.06622661785325219,
+     "data_count": 114,
+     "share_of_samples_at_or_above_data": 0.0775
+    },
+    {
+     "p_lo": 1.0,
+     "p_hi": 1.6,
+     "simulated_link": 0.20104860963530666,
+     "sd_between_samples": 0.0701421078132863,
+     "mean_count": 106.61,
+     "data_link": 0.2281610203328813,
+     "data_error": 0.07254762501100116,
+     "data_count": 95,
+     "share_of_samples_at_or_above_data": 0.3675
+    },
+    {
+     "p_lo": 1.6,
+     "p_hi": 3.0,
+     "simulated_link": 0.17984237132941921,
+     "sd_between_samples": 0.07278704254683854,
+     "mean_count": 93.545,
+     "data_link": 0.17593812830595992,
+     "data_error": 0.08703882797784893,
+     "data_count": 66,
+     "share_of_samples_at_or_above_data": 0.5275
+    },
+    {
+     "p_lo": 3.0,
+     "p_hi": 99.0,
+     "simulated_link": 0.12158634180082775,
+     "sd_between_samples": 0.10712650401647814,
+     "mean_count": 42.405,
+     "data_link": 0.19074798317781166,
+     "data_error": 0.07905694150420949,
+     "data_count": 80,
+     "share_of_samples_at_or_above_data": 0.2525
+    }
+   ]
+  },
+  {
+   "parent": "two",
+   "median_observed_p": 1.1856567596734973,
+   "link_all": 0.22754799186246266,
+   "bands": [
+    {
+     "p_lo": 0.6,
+     "p_hi": 1.0,
+     "simulated_link": 0.2845972859804071,
+     "sd_between_samples": 0.0588066817352457,
+     "mean_count": 139.68,
+     "data_link": 0.2893783100254056,
+     "data_error": 0.06622661785325219,
+     "data_count": 114,
+     "share_of_samples_at_or_above_data": 0.4825
+    },
+    {
+     "p_lo": 1.0,
+     "p_hi": 1.6,
+     "simulated_link": 0.27435472968926716,
+     "sd_between_samples": 0.07070407342788941,
+     "mean_count": 90.6075,
+     "data_link": 0.2281610203328813,
+     "data_error": 0.07254762501100116,
+     "data_count": 95,
+     "share_of_samples_at_or_above_data": 0.7475
+    },
+    {
+     "p_lo": 1.6,
+     "p_hi": 3.0,
+     "simulated_link": 0.16759062677977063,
+     "sd_between_samples": 0.08303763971942764,
+     "mean_count": 70.8275,
+     "data_link": 0.17593812830595992,
+     "data_error": 0.08703882797784893,
+     "data_count": 66,
+     "share_of_samples_at_or_above_data": 0.4625
+    },
+    {
+     "p_lo": 3.0,
+     "p_hi": 99.0,
+     "simulated_link": 0.07926690342150139,
+     "sd_between_samples": 0.09392358537705053,
+     "mean_count": 53.885,
+     "data_link": 0.19074798317781166,
+     "data_error": 0.07905694150420949,
+     "data_count": 80,
+     "share_of_samples_at_or_above_data": 0.12
+    }
+   ]
+  }
+ ]
+}

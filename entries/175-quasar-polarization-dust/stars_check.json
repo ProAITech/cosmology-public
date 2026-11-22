@@ -1,0 +1,22 @@
+{
+ "catalogue_galactic_to_equatorial": {
+  "n": 8065,
+  "median_abs_deg": 0.26472372105985187,
+  "within_2deg": 0.9992560446373218
+ },
+ "high_latitude": {
+  "n": 144,
+  "mean_cos2delta": 0.7235605886021785,
+  "error": 0.05892556509887897,
+  "median_p_star": 0.28500000000000003,
+  "median_p_predicted": 0.22405114993991393,
+  "median_ratio": 1.2007965009078427
+ },
+ "low_latitude_distant": {
+  "n": 2407,
+  "mean_cos2delta": 0.7167848787866167,
+  "error": 0.014412753434733406,
+  "median_ratio": 0.6590678796324577
+ },
+ "passes": true
+}

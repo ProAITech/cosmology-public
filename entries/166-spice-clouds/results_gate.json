@@ -1,0 +1,81 @@
+{
+ "generated": "2026-11-14 07:53 UTC",
+ "rule": "Workbench section 166, commit 1955eae",
+ "counts": {
+  "rows": 9294225,
+  "rows_flags_clear": 333463,
+  "rows_usable": 333174,
+  "unique_sources": 134400,
+  "multi_row_sources": 72752,
+  "sources": 134400
+ },
+ "clouds": {
+  "ori": {
+   "name": "Orion A",
+   "dist_pc": 420,
+   "pc_per_deg": 7.3,
+   "midpoint_lb": [
+    211.542,
+    -19.288
+   ],
+   "chord_length_deg": 5.5912,
+   "arc_length_deg": 5.8616,
+   "vertices_frame": [
+    [
+     -2.7768,
+     0.188
+    ],
+    [
+     -2.4087,
+     -0.092
+    ],
+    [
+     -1.3988,
+     -0.312
+    ],
+    [
+     -0.5776,
+     -0.162
+    ],
+    [
+     1.0269,
+     0.288
+    ],
+    [
+     2.792,
+     -0.312
+    ]
+   ],
+   "decision": "not tested: fewer than 1,000 sources in the window",
+   "N": 556
+  },
+  "per": {
+   "name": "Perseus",
+   "dist_pc": 300,
+   "pc_per_deg": 5.2,
+   "midpoint_lb": [
+    159.7376,
+    -18.7493
+   ],
+   "chord_length_deg": 4.2555,
+   "arc_length_deg": 4.3787,
+   "vertices_frame": [
+    [
+     -1.314,
+     -1.7507
+    ],
+    [
+     0.7125,
+     0.9493
+    ],
+    [
+     0.7882,
+     1.9493
+    ]
+   ],
+   "decision": "not tested: fewer than 1,000 sources in the window",
+   "N": 476
+  }
+ },
+ "seconds": 1
+}

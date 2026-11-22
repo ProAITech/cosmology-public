@@ -1,0 +1,140 @@
+{
+ "data": "Stone et al. 2022, VizieR J/MNRAS/514/164/table1: 190 quasars, 570 band light curves (g, r, i), z = 0.20-4.15",
+ "corr": {
+  "logL_vs_log1pz": 0.757,
+  "logM_vs_log1pz": 0.357,
+  "logL_vs_logM": 0.512
+ },
+ "variants": [
+  {
+   "label": "Lewis & Brewer 2023 (luminosity and wavelength bins)",
+   "n": 1.28,
+   "n68": [
+    0.99,
+    1.56
+   ],
+   "n95": null,
+   "src": "published"
+  },
+  {
+   "label": "wavelength only (fitted, slope 0.51)",
+   "n": 1.141,
+   "n68": [
+    0.779,
+    1.449
+   ],
+   "n95": [
+    0.428,
+    1.786
+   ],
+   "p_le0": 0.0,
+   "boot": 500
+  },
+  {
+   "label": "MacLeod relations (λ^0.17, M^0.21, none in L)",
+   "n": 0.794,
+   "n68": [
+    0.442,
+    1.106
+   ],
+   "n95": [
+    0.15,
+    1.421
+   ],
+   "p_le0": 0.008,
+   "boot": 1000
+  },
+  {
+   "label": "wavelength + black-hole mass, fitted within redshift bins",
+   "n": 0.717,
+   "n68": [
+    0.422,
+    1.009
+   ],
+   "n95": [
+    0.055,
+    1.332
+   ],
+   "p_le0": 0.012,
+   "boot": 500,
+   "coef": [
+    0.411,
+    0.256
+   ]
+  },
+  {
+   "label": "wavelength + luminosity, fitted within redshift bins",
+   "n": 0.248,
+   "n68": [
+    -0.077,
+    0.602
+   ],
+   "n95": [
+    -0.408,
+    1.018
+   ],
+   "p_le0": 0.258,
+   "boot": 500,
+   "coef": [
+    0.483,
+    0.309
+   ],
+   "coef68": [
+    [
+     0.36,
+     0.658
+    ],
+    [
+     0.204,
+     0.388
+    ]
+   ]
+  },
+  {
+   "label": "wavelength + mass + luminosity, within redshift bins",
+   "n": 0.267,
+   "n68": [
+    -0.08,
+    0.62
+   ],
+   "n95": [
+    -0.358,
+    1.085
+   ],
+   "p_le0": 0.226,
+   "boot": 500,
+   "coef": [
+    0.414,
+    0.204,
+    0.185
+   ]
+  },
+  {
+   "label": "supernovae, DES 2024",
+   "n": 1.003,
+   "n68": [
+    0.998,
+    1.008
+   ],
+   "n95": [
+    0.993,
+    1.013
+   ],
+   "src": "published"
+  }
+ ],
+ "pooled_no_controls": {
+  "n": 1.137,
+  "n68": [
+   0.779,
+   1.443
+  ],
+  "n95": [
+   0.403,
+   1.783
+  ],
+  "p_le0": 0.0017,
+  "boot": 600
+ },
+ "notes": "two-stage fits: stage 1 with 8 equal-count redshift bins as fixed effects gives covariate slopes; stage 2 regresses the corrected log tau on log(1+z). Weighted least squares with intrinsic scatter by maximum likelihood; errors = mean of the published asymmetric errors; bootstrap over quasars (seed 11; fixed-relation runs seed 3)."
+}

@@ -1,0 +1,575 @@
+{
+ "n_nodes": 40,
+ "rows": [
+  [
+   "Plasma-cosmology claims (14)",
+   [
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "contested",
+     1,
+     "contested"
+    ],
+    [
+     "not found",
+     1,
+     "notfound"
+    ],
+    [
+     "excluded",
+     11,
+     "excluded"
+    ]
+   ]
+  ],
+  [
+   "Shared physics (12)",
+   [
+    [
+     "settled",
+     8,
+     "settled"
+    ],
+    [
+     "measured once",
+     2,
+     "single"
+    ],
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "not found",
+     1,
+     "notfound"
+    ]
+   ]
+  ],
+  [
+   "Standard-model pieces (11)",
+   [
+    [
+     "settled",
+     1,
+     "settled"
+    ],
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "contested",
+     8,
+     "contested"
+    ],
+    [
+     "not found",
+     1,
+     "notfound"
+    ]
+   ]
+  ],
+  [
+   "Changed gravity (3)",
+   [
+    [
+     "settled",
+     1,
+     "settled"
+    ],
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "contested",
+     1,
+     "contested"
+    ]
+   ]
+  ]
+ ],
+ "by_side": {
+  "P": {
+   "excluded": 11,
+   "open": 1,
+   "notfound": 1,
+   "contested": 1
+  },
+  "S": {
+   "settled": 8,
+   "single": 2,
+   "open": 1,
+   "notfound": 1
+  },
+  "L": {
+   "contested": 8,
+   "settled": 1,
+   "open": 1,
+   "notfound": 1
+  },
+  "A": {
+   "settled": 1,
+   "open": 1,
+   "contested": 1
+  }
+ },
+ "nodes": [
+  {
+   "id": "e_exp",
+   "label": "Time dilation, shape test, temperature trend",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    24,
+    27,
+    28,
+    32
+   ]
+  },
+  {
+   "id": "static",
+   "label": "Static universe, tired light",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    15,
+    27,
+    28,
+    31,
+    32,
+    33,
+    34,
+    38,
+    39,
+    40,
+    41,
+    42,
+    45,
+    47,
+    58,
+    65,
+    67,
+    79,
+    80,
+    82,
+    83,
+    89,
+    90
+   ]
+  },
+  {
+   "id": "sb",
+   "label": "Galaxy sizes and surface brightness",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    12,
+    45,
+    49,
+    51,
+    59,
+    62,
+    63,
+    81
+   ]
+  },
+  {
+   "id": "growmass",
+   "label": "Varying light speed, growing mass",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    12,
+    21
+   ]
+  },
+  {
+   "id": "arp",
+   "label": "Quasars ejected from nearby galaxies",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    17,
+    70,
+    76,
+    77,
+    78
+   ]
+  },
+  {
+   "id": "ambi",
+   "label": "Matter–antimatter ambiplasma",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    35
+   ]
+  },
+  {
+   "id": "cmbfog",
+   "label": "CMB as a local thermalized fog",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    12,
+    22,
+    27,
+    75,
+    86
+   ]
+  },
+  {
+   "id": "cmbcool",
+   "label": "CMB cooled near nearby galaxies",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    22,
+    47,
+    50
+   ]
+  },
+  {
+   "id": "shell",
+   "label": "CMB from a thin last-scattering shell",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    12,
+    92
+   ]
+  },
+  {
+   "id": "third",
+   "label": "Third peak needs a dark component",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    13
+   ]
+  },
+  {
+   "id": "bbn",
+   "label": "Deuterium and helium",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    23,
+    25,
+    29,
+    30
+   ]
+  },
+  {
+   "id": "ns",
+   "label": "Primordial tilt n_s ≈ 0.965",
+   "status": "settled",
+   "aff": "L",
+   "entries": [
+    12
+   ]
+  },
+  {
+   "id": "li",
+   "label": "Lithium-7 problem",
+   "status": "open",
+   "aff": "L",
+   "entries": [
+    14,
+    53
+   ]
+  },
+  {
+   "id": "jets",
+   "label": "Jet currents, ~10¹⁸·⁵ A",
+   "status": "single",
+   "aff": "S",
+   "entries": [
+    12
+   ]
+  },
+  {
+   "id": "esun",
+   "label": "An externally powered Sun",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    71
+   ]
+  },
+  {
+   "id": "ecomet",
+   "label": "Electric comets",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    72
+   ]
+  },
+  {
+   "id": "cloudI",
+   "label": "Currents along star-forming clouds",
+   "status": "open",
+   "aff": "P",
+   "entries": [
+    73
+   ]
+  },
+  {
+   "id": "plasmoid",
+   "label": "Plasmoid nuclei, no black holes",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    11,
+    85
+   ]
+  },
+  {
+   "id": "radioseq",
+   "label": "Radio galaxies as the first stage",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    81,
+    88
+   ]
+  },
+  {
+   "id": "birk",
+   "label": "Birkeland currents in magnetospheres",
+   "status": "settled",
+   "aff": "S",
+   "entries": []
+  },
+  {
+   "id": "mw",
+   "label": "Milky Way halo circuit, ~10¹⁷ A",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    18,
+    54,
+    57,
+    64
+   ]
+  },
+  {
+   "id": "filB",
+   "label": "Filament fields, 11–15 nG",
+   "status": "single",
+   "aff": "S",
+   "entries": [
+    13,
+    15,
+    61
+   ]
+  },
+  {
+   "id": "pmf",
+   "label": "Primordial fields at recombination",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    13,
+    14,
+    36,
+    44,
+    48,
+    54,
+    56
+   ]
+  },
+  {
+   "id": "filI",
+   "label": "Currents along filaments",
+   "status": "notfound",
+   "aff": "S",
+   "entries": [
+    13,
+    15,
+    61,
+    68,
+    69
+   ]
+  },
+  {
+   "id": "peratt",
+   "label": "Peratt-scale filament currents",
+   "status": "notfound",
+   "aff": "P",
+   "entries": [
+    15,
+    18,
+    57,
+    60,
+    61,
+    74
+   ]
+  },
+  {
+   "id": "desi",
+   "label": "DESI BAO vs CMB",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    13
+   ]
+  },
+  {
+   "id": "de",
+   "label": "Is dark energy constant?",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    15,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    43,
+    56,
+    58
+   ]
+  },
+  {
+   "id": "s8",
+   "label": "Growth (S8) tension",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    91
+   ]
+  },
+  {
+   "id": "jwst",
+   "label": "JWST early massive galaxies",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    14
+   ]
+  },
+  {
+   "id": "elgordo",
+   "label": "El Gordo cluster collision",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    26
+   ]
+  },
+  {
+   "id": "big",
+   "label": "Giant structures (Giant Arc, Big Ring)",
+   "status": "contested",
+   "aff": "P",
+   "entries": [
+    52,
+    66,
+    84
+   ]
+  },
+  {
+   "id": "dipole",
+   "label": "Lopsided counts of distant sources",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    46,
+    55
+   ]
+  },
+  {
+   "id": "he",
+   "label": "Helium deficit hint (EMPRESS)",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    44
+   ]
+  },
+  {
+   "id": "dd",
+   "label": "Particle searches",
+   "status": "notfound",
+   "aff": "L",
+   "entries": []
+  },
+  {
+   "id": "rar",
+   "label": "Galaxy acceleration law (RAR)",
+   "status": "settled",
+   "aff": "A",
+   "entries": [
+    62
+   ]
+  },
+  {
+   "id": "aest",
+   "label": "AeST: MOND plus a dust-like field",
+   "status": "open",
+   "aff": "A",
+   "entries": [
+    13,
+    15
+   ]
+  },
+  {
+   "id": "bullet",
+   "label": "Bullet Cluster lensing offset",
+   "status": "settled",
+   "aff": "S",
+   "entries": []
+  },
+  {
+   "id": "wide",
+   "label": "Wide-binary test of MOND",
+   "status": "contested",
+   "aff": "A",
+   "entries": [
+    14,
+    15
+   ]
+  },
+  {
+   "id": "nodm",
+   "label": "No dark ingredient at all",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    12,
+    45
+   ]
+  },
+  {
+   "id": "magrot",
+   "label": "Magnetic forces replace dark matter",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    20,
+    87
+   ]
+  }
+ ],
+ "entry50": {
+  "n_nodes": 38,
+  "plasma": {
+   "excluded": 6,
+   "contested": 2,
+   "notfound": 1
+  }
+ }
+}

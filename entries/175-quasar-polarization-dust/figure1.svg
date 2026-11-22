@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="900" height="380" fill="#fff"/>
+<rect x="60" y="28" width="380" height="300" fill="none" stroke="#222"/>
+<line x1="71.9" y1="328" x2="71.9" y2="333" stroke="#222"/><text x="71.9" y="347" text-anchor="middle">0</text>
+<line x1="131.2" y1="328" x2="131.2" y2="333" stroke="#222"/><text x="131.2" y="347" text-anchor="middle">0.5</text>
+<line x1="190.6" y1="328" x2="190.6" y2="333" stroke="#222"/><text x="190.6" y="347" text-anchor="middle">1</text>
+<line x1="250.0" y1="328" x2="250.0" y2="333" stroke="#222"/><text x="250.0" y="347" text-anchor="middle">1.5</text>
+<line x1="309.4" y1="328" x2="309.4" y2="333" stroke="#222"/><text x="309.4" y="347" text-anchor="middle">2</text>
+<line x1="368.8" y1="328" x2="368.8" y2="333" stroke="#222"/><text x="368.8" y="347" text-anchor="middle">2.5</text>
+<line x1="428.1" y1="328" x2="428.1" y2="333" stroke="#222"/><text x="428.1" y="347" text-anchor="middle">3</text>
+<line x1="55" y1="303.0" x2="60" y2="303.0" stroke="#222"/><text x="52" y="307.0" text-anchor="end">0</text>
+<line x1="60" y1="303.0" x2="440" y2="303.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="55" y1="253.0" x2="60" y2="253.0" stroke="#222"/><text x="52" y="257.0" text-anchor="end">1</text>
+<line x1="60" y1="253.0" x2="440" y2="253.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="55" y1="203.0" x2="60" y2="203.0" stroke="#222"/><text x="52" y="207.0" text-anchor="end">2</text>
+<line x1="60" y1="203.0" x2="440" y2="203.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="55" y1="153.0" x2="60" y2="153.0" stroke="#222"/><text x="52" y="157.0" text-anchor="end">3</text>
+<line x1="60" y1="153.0" x2="440" y2="153.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="55" y1="103.0" x2="60" y2="103.0" stroke="#222"/><text x="52" y="107.0" text-anchor="end">4</text>
+<line x1="60" y1="103.0" x2="440" y2="103.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="55" y1="53.0" x2="60" y2="53.0" stroke="#222"/><text x="52" y="57.0" text-anchor="end">5</text>
+<line x1="60" y1="53.0" x2="440" y2="53.0" stroke="#bbb" stroke-width="0.4"/>
+<text x="250.0" y="366" text-anchor="middle">foreground removed, in units of Planck’s prediction (f)</text>
+<text transform="translate(20,178.0) rotate(-90)" text-anchor="middle">alignment (σ)</text>
+<polygon points="101.6,82.7 131.2,69.4 160.9,84.7 190.6,84.4 220.3,77.9 250.0,84.7 279.7,107.6 309.4,106.6 368.8,108.3 428.1,109.7 428.1,187.3 368.8,186.0 309.4,133.5 279.7,189.3 250.0,142.8 220.3,129.4 190.6,116.6 160.9,118.1 131.2,107.7 101.6,102.1" fill="#ddd" stroke="none"/>
+<line x1="60.0" y1="153.0" x2="440.0" y2="153.0" stroke="#b03a2e" stroke-dasharray="4 3"/>
+<line x1="60.0" y1="203.0" x2="440.0" y2="203.0" stroke="#b03a2e" stroke-dasharray="4 3"/>
+<polyline points="71.9,90.2 101.6,110.3 131.2,134.4 160.9,160.1 190.6,184.2 220.3,216.0 250.0,247.1 279.7,265.1 309.4,260.5 368.8,232.7 428.1,188.9" fill="none" stroke="#1f4e9c" stroke-width="1.8"/>
+<circle cx="71.9" cy="90.2" r="4" fill="#1f4e9c"/>
+<circle cx="101.6" cy="110.3" r="4" fill="#1f4e9c"/>
+<circle cx="131.2" cy="134.4" r="4" fill="#1f4e9c"/>
+<circle cx="160.9" cy="160.1" r="4" fill="#1f4e9c"/>
+<circle cx="190.6" cy="184.2" r="4" fill="#1f4e9c"/>
+<circle cx="220.3" cy="216.0" r="4" fill="#1f4e9c"/>
+<circle cx="250.0" cy="247.1" r="4" fill="#1f4e9c"/>
+<circle cx="279.7" cy="265.1" r="4" fill="#1f4e9c"/>
+<circle cx="309.4" cy="260.5" r="4" fill="#1f4e9c"/>
+<circle cx="368.8" cy="232.7" r="4" fill="#1f4e9c"/>
+<circle cx="428.1" cy="188.9" r="4" fill="#1f4e9c"/>
+<polyline points="71.9,149.9 101.6,151.2 131.2,160.6 160.9,190.0 190.6,211.1 220.3,236.9 250.0,270.6 279.7,290.2 309.4,287.3 368.8,254.5 428.1,201.8" fill="none" stroke="#222" stroke-width="1.4" stroke-dasharray="2 3"/>
+<line x1="190.6" y1="328.0" x2="190.6" y2="28.0" stroke="#999"/>
+<text x="195.6" y="42.0" fill="#555" font-size="11">Planck’s prediction</text>
+<text x="418.0" y="149.0" fill="#b03a2e" font-size="11">3σ</text><text x="418.0" y="199.0" fill="#b03a2e" font-size="11">2σ</text>
+<circle cx="81.4" cy="251.5" r="4" fill="#1f4e9c"/><text x="91.4" y="255.5">30 neighbours, true direction</text>
+<line x1="73.4" y1="268.5" x2="87.4" y2="268.5" stroke="#222" stroke-width="1.4" stroke-dasharray="2 3"/><text x="91.4" y="272.5">global, five neighbour counts</text>
+<rect x="73.4" y="281.5" width="14" height="9" fill="#ddd"/><text x="91.4" y="289.5">random directions (8 trials)</text>
+<rect x="545" y="28" width="320" height="300" fill="none" stroke="#222"/>
+<line x1="555.0" y1="328" x2="555.0" y2="333" stroke="#222"/><text x="555.0" y="347" text-anchor="middle">0</text>
+<line x1="605.0" y1="328" x2="605.0" y2="333" stroke="#222"/><text x="605.0" y="347" text-anchor="middle">0.5</text>
+<line x1="655.0" y1="328" x2="655.0" y2="333" stroke="#222"/><text x="655.0" y="347" text-anchor="middle">1</text>
+<line x1="705.0" y1="328" x2="705.0" y2="333" stroke="#222"/><text x="705.0" y="347" text-anchor="middle">1.5</text>
+<line x1="755.0" y1="328" x2="755.0" y2="333" stroke="#222"/><text x="755.0" y="347" text-anchor="middle">2</text>
+<line x1="805.0" y1="328" x2="805.0" y2="333" stroke="#222"/><text x="805.0" y="347" text-anchor="middle">2.5</text>
+<line x1="855.0" y1="328" x2="855.0" y2="333" stroke="#222"/><text x="855.0" y="347" text-anchor="middle">3</text>
+<line x1="540" y1="328.0" x2="545" y2="328.0" stroke="#222"/><text x="537" y="332.0" text-anchor="end">−0.2</text>
+<line x1="545" y1="328.0" x2="865" y2="328.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="540" y1="268.0" x2="545" y2="268.0" stroke="#222"/><text x="537" y="272.0" text-anchor="end">−0.1</text>
+<line x1="545" y1="268.0" x2="865" y2="268.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="540" y1="208.0" x2="545" y2="208.0" stroke="#222"/><text x="537" y="212.0" text-anchor="end">0</text>
+<line x1="545" y1="208.0" x2="865" y2="208.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="540" y1="148.0" x2="545" y2="148.0" stroke="#222"/><text x="537" y="152.0" text-anchor="end">0.1</text>
+<line x1="545" y1="148.0" x2="865" y2="148.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="540" y1="88.0" x2="545" y2="88.0" stroke="#222"/><text x="537" y="92.0" text-anchor="end">0.2</text>
+<line x1="545" y1="88.0" x2="865" y2="88.0" stroke="#bbb" stroke-width="0.4"/>
+<line x1="540" y1="28.0" x2="545" y2="28.0" stroke="#222"/><text x="537" y="32.0" text-anchor="end">0.3</text>
+<line x1="545" y1="28.0" x2="865" y2="28.0" stroke="#bbb" stroke-width="0.4"/>
+<text x="705.0" y="366" text-anchor="middle">foreground removed (f)</text>
+<text transform="translate(505,178.0) rotate(-90)" text-anchor="middle">link to the foreground direction, mean cos 2Δ</text>
+<polygon points="555.0,47.7 580.0,57.9 605.0,69.0 630.0,81.4 655.0,95.5 680.0,114.6 705.0,137.2 730.0,161.0 755.0,181.4 805.0,222.9 855.0,253.2 855.0,298.3 805.0,268.0 755.0,226.4 730.0,206.0 705.0,182.2 680.0,159.7 655.0,140.5 630.0,126.4 605.0,114.1 580.0,103.0 555.0,92.7" fill="#dbe6f4" stroke="none"/>
+<line x1="545.0" y1="208.0" x2="865.0" y2="208.0" stroke="#222"/>
+<polyline points="555.0,70.2 580.0,80.4 605.0,91.5 630.0,103.9 655.0,118.0 680.0,137.2 705.0,159.7 730.0,183.5 755.0,203.9 805.0,245.4 855.0,275.7" fill="none" stroke="#1f4e9c" stroke-width="1.8"/>
+<circle cx="555.0" cy="70.2" r="3.5" fill="#1f4e9c"/>
+<circle cx="580.0" cy="80.4" r="3.5" fill="#1f4e9c"/>
+<circle cx="605.0" cy="91.5" r="3.5" fill="#1f4e9c"/>
+<circle cx="630.0" cy="103.9" r="3.5" fill="#1f4e9c"/>
+<circle cx="655.0" cy="118.0" r="3.5" fill="#1f4e9c"/>
+<circle cx="680.0" cy="137.2" r="3.5" fill="#1f4e9c"/>
+<circle cx="705.0" cy="159.7" r="3.5" fill="#1f4e9c"/>
+<circle cx="730.0" cy="183.5" r="3.5" fill="#1f4e9c"/>
+<circle cx="755.0" cy="203.9" r="3.5" fill="#1f4e9c"/>
+<circle cx="805.0" cy="245.4" r="3.5" fill="#1f4e9c"/>
+<circle cx="855.0" cy="275.7" r="3.5" fill="#1f4e9c"/>
+<line x1="655.0" y1="328.0" x2="655.0" y2="28.0" stroke="#999"/>
+</svg>

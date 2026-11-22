@@ -1,0 +1,53 @@
+{
+ "bounds": {
+  "10 yr": 7.1e-16,
+  "1e4 yr": 1.8e-14,
+  "1e7 yr": 3.9e-14
+ },
+ "cmb_primordial_upper": {
+  "scale-invariant": 4.7e-11,
+  "Batchelor": 8.9e-12
+ },
+ "biermann": 1e-21,
+ "current_needed": {
+  "10 yr": {
+   "5 Mpc": 55000000000.0,
+   "10 Mpc": 110000000000.0,
+   "20 Mpc": 220000000000.0
+  },
+  "1e4 yr": {
+   "5 Mpc": 1400000000000.0,
+   "10 Mpc": 2800000000000.0,
+   "20 Mpc": 5600000000000.0
+  },
+  "1e7 yr": {
+   "5 Mpc": 3000000000000.0,
+   "10 Mpc": 6000000000000.0,
+   "20 Mpc": 12000000000000.0
+  }
+ },
+ "filament_limit": {
+  "I": 3e+17,
+  "B_at_10Mpc": 1.9e-09,
+  "B_at_5Mpc": 3.9e-09,
+  "factor_above_needed": 2700000.0
+ },
+ "biermann_shortfall": 710000.0,
+ "primordial_window_decades": {
+  "scale_invariant": 4.82,
+  "batchelor": 4.1
+ },
+ "needed_current_physics": {
+  "I": 110000000000.0,
+  "J": 3.7e-35,
+  "drift_m_s": 2.3e-17,
+  "inductance_H": 4.3e+17,
+  "emf_V_1Gyr": 1500000000000.0,
+  "milky_way_emf_V": 2700000000000000.0
+ },
+ "energy": {
+  "uB_erg_cm3": 2e-32,
+  "over_cmb": 4.8e-20
+ },
+ "contrast_2_vs_15_Mpc": 7.5
+}

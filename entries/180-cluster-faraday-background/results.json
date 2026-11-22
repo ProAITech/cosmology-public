@@ -1,0 +1,143 @@
+{
+ "generated": "2026-11-21T17:42:27Z",
+ "config": {
+  "match_arcsec": 10.0,
+  "classes": [
+   "Q",
+   "A",
+   "B",
+   "K",
+   "N"
+  ],
+  "dz": 0.1,
+  "nrot": 500,
+  "seed": 20261180,
+  "min_A": 30,
+  "ranges": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    2.0
+   ],
+   [
+    2.0,
+    4.0
+   ]
+  ],
+  "names": [
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ "info": {
+  "sources": 92169,
+  "with_redshift": 11554,
+  "by_catalogue": {
+   "milliquas": 6063,
+   "desi": 1742,
+   "quaia": 3749
+  },
+  "clusters": {
+   "erass1": 9050,
+   "other_half": 1101,
+   "total": 10151
+  }
+ },
+ "ranges": {
+  "A": {
+   "lo": 0.0,
+   "hi": 1.0,
+   "n": 74,
+   "null_n_mean": 63.878,
+   "V": 216.79066158200177,
+   "null_mean": 79.90240414611542,
+   "null_sd": 28.628784611592216,
+   "t": 4.781490352910696,
+   "excess_variance": 136.88825743588637
+  },
+  "B": {
+   "lo": 1.0,
+   "hi": 2.0,
+   "n": 171,
+   "null_n_mean": 183.922,
+   "V": 82.37282615223613,
+   "null_mean": 80.10091371918219,
+   "null_sd": 16.268427628457307,
+   "t": 0.1396516298280623,
+   "excess_variance": 2.2719124330539415
+  },
+  "C": {
+   "lo": 2.0,
+   "hi": 4.0,
+   "n": 688,
+   "null_n_mean": 671.09,
+   "V": 77.29520160765082,
+   "null_mean": 78.64057538718927,
+   "null_sd": 8.515273627382193,
+   "t": -0.1579953667269351,
+   "excess_variance": -1.3453737795384484
+  },
+  "field": {
+   "n": 8414,
+   "V": 79.2287319004653
+  }
+ },
+ "decision": {
+  "A": "seen: the scatter of background quasars is raised inside R500 (t >= +3); the gas is in front of the sources",
+  "B": "no excess at 1 to 2 R500 (|t| < 2)",
+  "C": "no excess at 2 to 4 R500 (|t| < 2)"
+ },
+ "reported_only": {
+  "all_sources": {
+   "A": {
+    "lo": 0.0,
+    "hi": 1.0,
+    "n": 669,
+    "null_n_mean": 544.535,
+    "V": 187.64917786114012,
+    "null_mean": 70.5896765240129,
+    "null_sd": 9.553867201567101,
+    "t": 12.252577816648548,
+    "excess_variance": 117.05950133712722
+   },
+   "B": {
+    "lo": 1.0,
+    "hi": 2.0,
+    "n": 1700,
+    "null_n_mean": 1559.81,
+    "V": 72.07770541796457,
+    "null_mean": 70.38772918260463,
+    "null_sd": 6.379427692874018,
+    "t": 0.26491032059939823,
+    "excess_variance": 1.6899762353599357
+   },
+   "C": {
+    "lo": 2.0,
+    "hi": 4.0,
+    "n": 6124,
+    "null_n_mean": 5649.85,
+    "V": 68.14604978711472,
+    "null_mean": 69.60410580263944,
+    "null_sd": 3.586645970258555,
+    "t": -0.4065235397123987,
+    "excess_variance": -1.4580560155247184
+   },
+   "field": {
+    "n": 65888,
+    "V": 71.90270061306853
+   }
+  },
+  "ratio_A": 1.169390402934086,
+  "quasars_inside_R500": {
+   "total": 95,
+   "behind_by_more_than_0p1": 74,
+   "median_quasar_z": 0.934,
+   "median_cluster_z": 0.1317
+  }
+ },
+ "seconds": 236
+}

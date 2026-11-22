@@ -1,0 +1,51 @@
+{
+ "gas_in_front_of_all": {
+  "n": {
+   "A": 38,
+   "B": 105,
+   "C": 381
+  },
+  "t": {
+   "A": 3.01,
+   "B": 0.48,
+   "C": 0.72
+  },
+  "decision": {
+   "A": "seen: the scatter of background quasars is raised inside R500 (t >= +3); the gas is in front of the sources",
+   "B": "no excess at 1 to 2 R500 (|t| < 2)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)"
+  }
+ },
+ "members_only": {
+  "n": {
+   "A": 41,
+   "B": 77,
+   "C": 405
+  },
+  "t": {
+   "A": -0.9,
+   "B": 0.23,
+   "C": 1.81
+  },
+  "decision": {
+   "A": "not seen on background quasars inside R500 (t < +2)",
+   "B": "no excess at 1 to 2 R500 (|t| < 2)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)"
+  }
+ },
+ "no_effect": {
+  "n": {
+   "A": 29,
+   "B": 93,
+   "C": 386
+  },
+  "t": {
+   "A": -0.4,
+   "B": -0.04,
+   "C": 1.33
+  },
+  "decision": {
+   "outcome": "not tested: fewer than 30 background quasars inside R500"
+  }
+ }
+}

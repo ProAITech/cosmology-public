@@ -1,0 +1,874 @@
+{
+ "n_nodes": 56,
+ "rows": [
+  [
+   "Plasma-cosmology claims (19)",
+   [
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "contested",
+     1,
+     "contested"
+    ],
+    [
+     "not found",
+     1,
+     "notfound"
+    ],
+    [
+     "excluded",
+     16,
+     "excluded"
+    ]
+   ]
+  ],
+  [
+   "Shared physics (19)",
+   [
+    [
+     "settled",
+     9,
+     "settled"
+    ],
+    [
+     "measured once",
+     2,
+     "single"
+    ],
+    [
+     "open",
+     7,
+     "open"
+    ],
+    [
+     "not found",
+     1,
+     "notfound"
+    ]
+   ]
+  ],
+  [
+   "Standard-model pieces (15)",
+   [
+    [
+     "settled",
+     2,
+     "settled"
+    ],
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "contested",
+     11,
+     "contested"
+    ],
+    [
+     "not found",
+     1,
+     "notfound"
+    ]
+   ]
+  ],
+  [
+   "Changed gravity (3)",
+   [
+    [
+     "settled",
+     1,
+     "settled"
+    ],
+    [
+     "open",
+     1,
+     "open"
+    ],
+    [
+     "contested",
+     1,
+     "contested"
+    ]
+   ]
+  ]
+ ],
+ "by_side": {
+  "P": {
+   "excluded": 16,
+   "open": 1,
+   "notfound": 1,
+   "contested": 1
+  },
+  "S": {
+   "settled": 9,
+   "open": 7,
+   "single": 2,
+   "notfound": 1
+  },
+  "L": {
+   "contested": 11,
+   "settled": 2,
+   "open": 1,
+   "notfound": 1
+  },
+  "A": {
+   "settled": 1,
+   "open": 1,
+   "contested": 1
+  }
+ },
+ "nodes": [
+  {
+   "id": "e_exp",
+   "label": "Time dilation, shape test, temperature trend",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    24,
+    27,
+    28,
+    32
+   ]
+  },
+  {
+   "id": "static",
+   "label": "Static universe, tired light",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    15,
+    27,
+    28,
+    31,
+    32,
+    33,
+    34,
+    38,
+    39,
+    40,
+    41,
+    42,
+    45,
+    47,
+    58,
+    65,
+    67,
+    79,
+    80,
+    82,
+    83,
+    89,
+    90,
+    112,
+    120
+   ]
+  },
+  {
+   "id": "sb",
+   "label": "Galaxy sizes and surface brightness",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    12,
+    45,
+    49,
+    51,
+    59,
+    62,
+    63,
+    81
+   ]
+  },
+  {
+   "id": "growmass",
+   "label": "Varying light speed, growing mass",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    12,
+    21,
+    111
+   ]
+  },
+  {
+   "id": "zrule",
+   "label": "What can redden light at all",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    3,
+    21,
+    111,
+    112
+   ]
+  },
+  {
+   "id": "ntau",
+   "label": "Neutron lifetime: bottle or beam?",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    113
+   ]
+  },
+  {
+   "id": "biref",
+   "label": "CMB polarization rotated (birefringence)",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    116
+   ]
+  },
+  {
+   "id": "pulsars",
+   "label": "Pulsars as discharges, not neutron stars",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    125
+   ]
+  },
+  {
+   "id": "scaling",
+   "label": "Scaling laboratory pinches up to galaxies",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    97,
+    124
+   ]
+  },
+  {
+   "id": "bubbles",
+   "label": "Fermi and eROSITA bubbles as a Galactic pinch",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    107,
+    123
+   ]
+  },
+  {
+   "id": "cosmicheat",
+   "label": "What heats the cosmic plasma: currents or gravity?",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    107,
+    121
+   ]
+  },
+  {
+   "id": "ptaplasma",
+   "label": "Nanohertz background as plasma noise",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    117
+   ]
+  },
+  {
+   "id": "drift",
+   "label": "Redshift drift: watching one source",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    120
+   ]
+  },
+  {
+   "id": "arp",
+   "label": "Quasars ejected from nearby galaxies",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    17,
+    70,
+    76,
+    77,
+    78
+   ]
+  },
+  {
+   "id": "ambi",
+   "label": "Matter–antimatter ambiplasma",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    35
+   ]
+  },
+  {
+   "id": "cmbfog",
+   "label": "CMB as a local thermalized fog",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    12,
+    22,
+    27,
+    75,
+    86
+   ]
+  },
+  {
+   "id": "reion",
+   "label": "Optical depth to reionization: 0.054 or 0.09?",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    92,
+    94,
+    95
+   ]
+  },
+  {
+   "id": "cmbcool",
+   "label": "CMB cooled near nearby galaxies",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    22,
+    47,
+    50
+   ]
+  },
+  {
+   "id": "shell",
+   "label": "CMB from a thin last-scattering shell",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    12,
+    92
+   ]
+  },
+  {
+   "id": "third",
+   "label": "Third peak needs a dark component",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    13
+   ]
+  },
+  {
+   "id": "bbn",
+   "label": "Deuterium and helium",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    23,
+    25,
+    29,
+    30,
+    102
+   ]
+  },
+  {
+   "id": "ns",
+   "label": "Primordial tilt n_s ≈ 0.965",
+   "status": "settled",
+   "aff": "L",
+   "entries": [
+    12
+   ]
+  },
+  {
+   "id": "li",
+   "label": "Lithium-7 problem",
+   "status": "open",
+   "aff": "L",
+   "entries": [
+    14,
+    53,
+    98,
+    113
+   ]
+  },
+  {
+   "id": "jets",
+   "label": "Jet currents, ~10¹⁸·⁵ A",
+   "status": "single",
+   "aff": "S",
+   "entries": [
+    12
+   ]
+  },
+  {
+   "id": "esun",
+   "label": "An externally powered Sun",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    71
+   ]
+  },
+  {
+   "id": "ecomet",
+   "label": "Electric comets",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    72
+   ]
+  },
+  {
+   "id": "cloudI",
+   "label": "Currents along star-forming clouds",
+   "status": "open",
+   "aff": "P",
+   "entries": [
+    73
+   ]
+  },
+  {
+   "id": "plasmoid",
+   "label": "Plasmoid nuclei, no black holes",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    11,
+    85
+   ]
+  },
+  {
+   "id": "radioseq",
+   "label": "Radio galaxies as the first stage",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    81,
+    88
+   ]
+  },
+  {
+   "id": "birk",
+   "label": "Birkeland currents in magnetospheres",
+   "status": "settled",
+   "aff": "S",
+   "entries": []
+  },
+  {
+   "id": "mw",
+   "label": "Milky Way halo circuit, ~10¹⁷ A",
+   "status": "settled",
+   "aff": "S",
+   "entries": [
+    18,
+    54,
+    57,
+    64,
+    107
+   ]
+  },
+  {
+   "id": "filB",
+   "label": "Filament fields, 11–15 nG",
+   "status": "single",
+   "aff": "S",
+   "entries": [
+    13,
+    15,
+    61
+   ]
+  },
+  {
+   "id": "pmf",
+   "label": "Primordial fields at recombination",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    13,
+    14,
+    36,
+    44,
+    48,
+    54,
+    56,
+    105,
+    115
+   ]
+  },
+  {
+   "id": "filI",
+   "label": "Currents along filaments",
+   "status": "notfound",
+   "aff": "S",
+   "entries": [
+    13,
+    15,
+    61,
+    68,
+    69
+   ]
+  },
+  {
+   "id": "peratt",
+   "label": "Peratt-scale filament currents",
+   "status": "notfound",
+   "aff": "P",
+   "entries": [
+    15,
+    18,
+    57,
+    60,
+    61,
+    74,
+    97,
+    121,
+    124
+   ]
+  },
+  {
+   "id": "desi",
+   "label": "DESI BAO vs CMB",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    13
+   ]
+  },
+  {
+   "id": "de",
+   "label": "Is dark energy constant?",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    15,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    43,
+    56,
+    58
+   ]
+  },
+  {
+   "id": "s8",
+   "label": "Growth (S8) tension",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    91
+   ]
+  },
+  {
+   "id": "jwst",
+   "label": "JWST early massive galaxies",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    14,
+    101,
+    119
+   ]
+  },
+  {
+   "id": "lrd",
+   "label": "Little red dots: plasma cocoons or heavy black holes?",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    119
+   ]
+  },
+  {
+   "id": "elgordo",
+   "label": "El Gordo cluster collision",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    26
+   ]
+  },
+  {
+   "id": "flows",
+   "label": "Large-scale flows: too big to form, or too fast?",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    126
+   ]
+  },
+  {
+   "id": "big",
+   "label": "Giant structures (Giant Arc, Big Ring)",
+   "status": "contested",
+   "aff": "P",
+   "entries": [
+    52,
+    66,
+    84
+   ]
+  },
+  {
+   "id": "dipole",
+   "label": "Lopsided counts of distant sources",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    46,
+    55
+   ]
+  },
+  {
+   "id": "he",
+   "label": "Primordial helium: the low hint has not held",
+   "status": "settled",
+   "aff": "L",
+   "entries": [
+    44,
+    102
+   ]
+  },
+  {
+   "id": "dd",
+   "label": "Particle searches",
+   "status": "notfound",
+   "aff": "L",
+   "entries": []
+  },
+  {
+   "id": "rar",
+   "label": "Galaxy acceleration law (RAR)",
+   "status": "settled",
+   "aff": "A",
+   "entries": [
+    62
+   ]
+  },
+  {
+   "id": "aest",
+   "label": "AeST: MOND plus a dust-like field",
+   "status": "open",
+   "aff": "A",
+   "entries": [
+    13,
+    15
+   ]
+  },
+  {
+   "id": "grz",
+   "label": "Gravitational redshift: how deep are cluster wells?",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    122
+   ]
+  },
+  {
+   "id": "bullet",
+   "label": "Bullet Cluster lensing offset",
+   "status": "settled",
+   "aff": "S",
+   "entries": []
+  },
+  {
+   "id": "wide",
+   "label": "Wide-binary test of MOND",
+   "status": "contested",
+   "aff": "A",
+   "entries": [
+    14,
+    15,
+    114
+   ]
+  },
+  {
+   "id": "nodm",
+   "label": "No dark ingredient at all",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    12,
+    45,
+    122
+   ]
+  },
+  {
+   "id": "voids",
+   "label": "Fields in the voids",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    109
+   ]
+  },
+  {
+   "id": "gcfil",
+   "label": "Galactic-centre filaments: twisted?",
+   "status": "open",
+   "aff": "S",
+   "entries": [
+    110,
+    123
+   ]
+  },
+  {
+   "id": "mwmass",
+   "label": "Is the Milky Way light? (Gaia decline)",
+   "status": "contested",
+   "aff": "L",
+   "entries": [
+    97,
+    103,
+    104,
+    108
+   ]
+  },
+  {
+   "id": "magrot",
+   "label": "Magnetic forces replace dark matter",
+   "status": "excluded",
+   "aff": "P",
+   "entries": [
+    20,
+    87,
+    118
+   ]
+  }
+ ],
+ "new": [
+  [
+   "zrule",
+   "S",
+   "settled",
+   "What can redden light at all"
+  ],
+  [
+   "ntau",
+   "S",
+   "open",
+   "Neutron lifetime: bottle or beam?"
+  ],
+  [
+   "biref",
+   "L",
+   "contested",
+   "CMB polarization rotated (birefringence)"
+  ],
+  [
+   "pulsars",
+   "P",
+   "excluded",
+   "Pulsars as discharges, not neutron stars"
+  ],
+  [
+   "scaling",
+   "P",
+   "excluded",
+   "Scaling laboratory pinches up to galaxies"
+  ],
+  [
+   "bubbles",
+   "P",
+   "excluded",
+   "Fermi and eROSITA bubbles as a Galactic pinch"
+  ],
+  [
+   "cosmicheat",
+   "P",
+   "excluded",
+   "What heats the cosmic plasma: currents or gravity?"
+  ],
+  [
+   "ptaplasma",
+   "P",
+   "excluded",
+   "Nanohertz background as plasma noise"
+  ],
+  [
+   "drift",
+   "S",
+   "open",
+   "Redshift drift: watching one source"
+  ],
+  [
+   "reion",
+   "L",
+   "contested",
+   "Optical depth to reionization: 0.054 or 0.09?"
+  ],
+  [
+   "lrd",
+   "S",
+   "open",
+   "Little red dots: plasma cocoons or heavy black holes?"
+  ],
+  [
+   "flows",
+   "L",
+   "contested",
+   "Large-scale flows: too big to form, or too fast?"
+  ],
+  [
+   "grz",
+   "S",
+   "open",
+   "Gravitational redshift: how deep are cluster wells?"
+  ],
+  [
+   "voids",
+   "S",
+   "open",
+   "Fields in the voids"
+  ],
+  [
+   "gcfil",
+   "S",
+   "open",
+   "Galactic-centre filaments: twisted?"
+  ],
+  [
+   "mwmass",
+   "L",
+   "contested",
+   "Is the Milky Way light? (Gaia decline)"
+  ]
+ ],
+ "changed": [
+  [
+   "he",
+   "L",
+   "contested",
+   "settled",
+   "Primordial helium: the low hint has not held"
+  ]
+ ],
+ "gone": [],
+ "entry93": {
+  "P": {
+   "excluded": 11,
+   "open": 1,
+   "notfound": 1,
+   "contested": 1
+  },
+  "S": {
+   "settled": 8,
+   "single": 2,
+   "open": 1,
+   "notfound": 1
+  },
+  "L": {
+   "contested": 8,
+   "settled": 1,
+   "open": 1,
+   "notfound": 1
+  },
+  "A": {
+   "settled": 1,
+   "open": 1,
+   "contested": 1
+  }
+ }
+}

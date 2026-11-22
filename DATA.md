@@ -1,0 +1,26 @@
+# Raw data: where to get it
+
+The analyses read public catalogues and maps that are too large to keep in git. Each is cited here, and again in the header of the script that reads it, by the path the script expects, the source, the size in bytes and the SHA-256 checksum of the file as it was analysed. Download each file into the path given (the `data/` folder is ignored by git) and check its checksum before running.
+
+The files read in a browser tab (VizieR, Gaia TAP, NVSS and others; the `.js` scripts) were never stored as files: each script records its query.
+
+| Catalogue or map | Path | Source | Size (bytes) | SHA-256 | Entries |
+|---|---|---|---|---|---|
+| SPICE-RACS DR2 polarization catalogue (Thomson et al. 2026) | `data/spice-racs-dr2/spice-racs.dr2.fits.gz` | https://data.csiro.au/collection/csiro:64891 | 4,968,301,262 | `a1a2f3c1d12a8a8b3aa8526d74b8e0115054f610e2e4186108f0f068005d0053` | 164, 166, 171–180, 182, 183 |
+| Milliquas v8 (Flesch 2023) | `data/milliquas-v8/milliquas.zip` | https://quasars.org/milliquas.zip | 32,701,849 | `9128d6aa91354d0ee1c83dde3ab8764a20d542aa82327e4a969a4357ba9ac984` | 171, 173, 174, 177, 180, 181, 183 |
+| DESI DR1 quasar catalogue | `data/desi-dr1-qso/QSO_cat_iron_cumulative_v0.fits` | https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/QSO/iron/QSO_cat_iron_cumulative_v0.fits | 816,203,520 | `a65604303cc29af8865db9193a23934b2540591b16c5afd2a4bea2d61464aef4` | 173, 174, 180 |
+| DESI DR1 Mg II absorber catalogue v1.0 | `data/desi-dr1-mgii/MgII-Absorbers-DR1.fits` | https://data.desi.lbl.gov/doc/releases/dr1/vac/mgii-absorber/ | 65,750,400 | `38c2e6281ce983a2b34b5810fdf0e3021cebaad3848cfc1cca974f185901bddf` | 167, 169, 173 |
+| Quaia, G < 20.5 (Storey-Fisher et al. 2024) | `data/quaia/quaia_G20.5.fits` | https://zenodo.org/api/records/10403370/files/quaia_G20.5.fits/content | 171,020,160 | `9e357a760f2ff2db9417a6791fb71dc421ee30324301f22db898038c9e648584` | 174, 180 |
+| eRASS1 clusters and groups, primary catalogue v3.2 (Bulbul et al. 2024) | `data/erass1-clusters/erass1cl_primary_v3.2.fits` | https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_primary_v3.2.fits.tgz | 23,764,095 | `f9e9e8f750a2831ac68dad1fb24a028b024c00d3b5879f7a5760af81fc9a40ca` | 176, 178, 180, 181, 186 |
+| MCXC (Piffaretti et al. 2011), VizieR J/A+A/534/A109/mcxc | `data/mcxc/table.tsv` | https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/534/A109 | 551,285 | `9ff800289c01547bce757b48af21cffbf40585139ab3d9ce553962b70d2e4948` | 179, 180 |
+| Planck PSZ2 union catalogue | `data/psz2/HFI_PCCS_SZ-union_R2.08.fits.gz` | https://irsa.ipac.caltech.edu/data/Planck/release_2/catalogs/HFI_PCCS_SZ-union_R2.08.fits.gz | 155,324 | `afba0c3e2b7341579aa5b0212dd0ee4ae15ba19493329e2a4827d17db52053a5` | 179, 180 |
+| Planck PR3 SMICA CMB map | `data/planck-pr3-smica/COM_CMB_IQU-smica_2048_R3.00_full.fits` | https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/maps/component-maps/cmb/COM_CMB_IQU-smica_2048_R3.00_full.fits | 2,013,312,960 | see `entries/165-smica-voids/README.md` | 165, 187 |
+| Planck PR3 NILC, SEVEM and Commander CMB maps | `data/planck-pr3-nilc/, data/planck-pr3-sevem/, data/planck-pr3-commander/` | https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/maps/component-maps/cmb/ | 1,610,660,160; 2,013,278,400; 1,610,660,160 | see `entries/165-smica-voids/README.md` | 165, 187 |
+| Planck PR3 common intensity mask | `data/planck-pr3-masks/COM_Mask_CMB-common-Mask-Int_2048_R3.00.fits` | https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/masks/COM_Mask_CMB-common-Mask-Int_2048_R3.00.fits | 201,335,040 | see `entries/165-smica-voids/README.md` | 165, 187 |
+| Planck PR3 GNILC thermal dust map (353 GHz, Stokes I, Q, U) | `data/planck-pr3-gnilc-dust/COM_CompMap_IQU-thermaldust-gnilc-unires_2048_R3.00.fits` | https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/maps/ | 1,811,949,120 | `2d68599b73aa5034340c85eed89a5270b68aaa33dfd52a286b3a2c7320491f88` | 175, 182 |
+| Quasar optical polarizations (Hutsemékers et al. 2005), VizieR J/A+A/441/915/qsos | `data/hutsemekers-2005/qsos.tsv` | https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/441/915 | 40,046 | `19573d69c6e2dee160b1662d6c1d322c6601287a4eb723db9ca177e58a183692` | 175, 182 |
+| Stellar polarizations (Heiles 2000), VizieR II/226/catalog | `data/heiles-2000/catalog.tsv` | https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=II/226 | 1,981,311 | `092fb3d15ae0485de090976cf63ba467609ce7069ae123c542662a94a0c22200` | 175 |
+| LVK GWTC-4.0 sensitivity injections | `data/lvk-gwtc4-injections/mixture-semi_o1_o2-real_o3_o4a-cartesian_spins_20250503134659UTC.hdf` | https://zenodo.org/records/16740128 | 624,783,664 | `fdaa4743a169fef3a3ca4071b2fb939af3433df9de8fa9973305fad1186090f1` | 168 |
+| PRyMordial (Burns, Tait & Valli 2024), public nucleosynthesis code | `data/prymordial/PRyMordial-main.zip` | https://github.com/vallima/PRyMordial | 1,653,114 | `e7d41823af285241d8bb28c19f40f772132176781b723d99e583bebce81d8074` | 170, 184 |
+
+The quasar polarization catalogues measured after 2005 (VizieR J/A+A/606/A101 and J/A+A/620/A68, Entry 182) and the NVSS rotation measures (Entry 186) were read in browser memory; see those entries' folders.

@@ -1,0 +1,168 @@
+{
+ "cmb": [
+  0.836,
+  0.012,
+  0.013
+ ],
+ "rows": [
+  {
+   "name": "KiDS-Legacy cosmic shear (2025)",
+   "group": "shear",
+   "S8": 0.815,
+   "ep": 0.016,
+   "em": 0.021,
+   "independent": true,
+   "tension_sigma": 1.02,
+   "ratio": 0.975
+  },
+  {
+   "name": "DES Y6 cosmic shear, NLA (2026)",
+   "group": "shear",
+   "S8": 0.798,
+   "ep": 0.014,
+   "em": 0.015,
+   "independent": false,
+   "tension_sigma": 1.99,
+   "ratio": 0.955
+  },
+  {
+   "name": "DES Y6 clustering + lensing, 3\u00d72pt (2026)",
+   "group": "shear",
+   "S8": 0.789,
+   "ep": 0.012,
+   "em": 0.012,
+   "independent": true,
+   "tension_sigma": 2.66,
+   "ratio": 0.944
+  },
+  {
+   "name": "HSC Y3 cosmic shear (2023)",
+   "group": "shear",
+   "S8": 0.776,
+   "ep": 0.032,
+   "em": 0.033,
+   "independent": true,
+   "tension_sigma": 1.74,
+   "ratio": 0.928
+  },
+  {
+   "name": "HSC lensing \u00d7 BOSS galaxies (2025)",
+   "group": "galaxy lensing",
+   "S8": 0.8294,
+   "ep": 0.011,
+   "em": 0.011,
+   "independent": true,
+   "tension_sigma": 0.39,
+   "ratio": 0.992
+  },
+  {
+   "name": "unWISE \u00d7 ACT+Planck CMB lensing (2024)",
+   "group": "CMB lensing",
+   "S8": 0.81,
+   "ep": 0.015,
+   "em": 0.015,
+   "independent": true,
+   "tension_sigma": 1.31,
+   "ratio": 0.969
+  },
+  {
+   "name": "ACT+Planck+SPT CMB lensing, with DESI BAO (2026)",
+   "group": "CMB lensing",
+   "S8": 0.828,
+   "ep": 0.012,
+   "em": 0.012,
+   "independent": true,
+   "tension_sigma": 0.45,
+   "ratio": 0.99
+  },
+  {
+   "name": "eROSITA clusters (2024)",
+   "group": "clusters",
+   "S8": 0.86,
+   "ep": 0.01,
+   "em": 0.01,
+   "independent": true,
+   "tension_sigma": -1.54,
+   "ratio": 1.029
+  },
+  {
+   "name": "SPT clusters (2024)",
+   "group": "clusters",
+   "S8": 0.795,
+   "ep": 0.029,
+   "em": 0.029,
+   "independent": true,
+   "tension_sigma": 1.29,
+   "ratio": 0.951
+  },
+  {
+   "name": "DES Y3 shear with kSZ-measured feedback (2024)",
+   "group": "feedback",
+   "S8": 0.823,
+   "ep": 0.019,
+   "em": 0.02,
+   "independent": false,
+   "tension_sigma": 0.56,
+   "ratio": 0.984
+  }
+ ],
+ "low_z_mean": 0.8245,
+ "low_z_err": 0.0049,
+ "chi2": 26.1,
+ "dof": 7,
+ "p": 0.00048,
+ "scale_factor": 1.93,
+ "low_z_err_scaled": 0.0095,
+ "tension_mean": 0.83,
+ "tension_mean_scaled": 0.72,
+ "deficit_percent": 1.38,
+ "leave_one_out": {
+  "KiDS-Legacy cosmic shear (2025)": {
+   "mean": 0.8252,
+   "chi2": 25.81,
+   "dof": 6
+  },
+  "DES Y6 clustering + lensing, 3\u00d72pt (2026)": {
+   "mean": 0.8316,
+   "chi2": 15.59,
+   "dof": 6
+  },
+  "HSC Y3 cosmic shear (2023)": {
+   "mean": 0.8256,
+   "chi2": 23.82,
+   "dof": 6
+  },
+  "HSC lensing \u00d7 BOSS galaxies (2025)": {
+   "mean": 0.8233,
+   "chi2": 25.85,
+   "dof": 6
+  },
+  "unWISE \u00d7 ACT+Planck CMB lensing (2024)": {
+   "mean": 0.8262,
+   "chi2": 25.05,
+   "dof": 6
+  },
+  "ACT+Planck+SPT CMB lensing, with DESI BAO (2026)": {
+   "mean": 0.8238,
+   "chi2": 26.0,
+   "dof": 6
+  },
+  "eROSITA clusters (2024)": {
+   "mean": 0.8133,
+   "chi2": 9.52,
+   "dof": 6
+  },
+  "SPT clusters (2024)": {
+   "mean": 0.8254,
+   "chi2": 25.03,
+   "dof": 6
+  }
+ },
+ "without_extremes": {
+  "mean": 0.8201,
+  "err": 0.0064,
+  "chi2": 4.27,
+  "dof": 5,
+  "tension": 1.1
+ }
+}

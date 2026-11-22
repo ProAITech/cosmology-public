@@ -1,0 +1,56 @@
+{
+ "single_reference": {
+  "slope": 63.817513117668845,
+  "fit_error": 18.177918308623685
+ },
+ "no growth": {
+  "t": 1.69,
+  "slope": 14.6,
+  "sd": 8.7,
+  "ratio": 0.12,
+  "u_all": -2.56,
+  "u_half": -1.58,
+  "masking_allowance": 15.6,
+  "outcome": "screens smaller than the separation do not carry all of the single-sight-line growth (95%); whether they carry half is not decided"
+ },
+ "no growth, second sky": {
+  "t": 1.12,
+  "slope": 14.9,
+  "sd": 13.3,
+  "ratio": 0.12,
+  "u_all": -2.07,
+  "u_half": -0.73,
+  "masking_allowance": 29.9,
+  "outcome": "screens smaller than the separation do not carry all of the single-sight-line growth (95%); whether they carry half is not decided"
+ },
+ "uncorrelated screens, full growth": {
+  "t": 3.73,
+  "slope": 111.5,
+  "sd": 29.9,
+  "ratio": 0.92,
+  "u_all": 1.04,
+  "u_half": 3.14,
+  "masking_allowance": 57.5,
+  "outcome": "the difference between components grows with redshift (t >= +3): screens smaller than the separation carry growth"
+ },
+ "half the growth": {
+  "t": 3.29,
+  "slope": 73.0,
+  "sd": 22.2,
+  "ratio": 0.6,
+  "u_all": 0.05,
+  "u_half": 2.22,
+  "masking_allowance": 50.2,
+  "outcome": "the difference between components grows with redshift (t >= +3): screens smaller than the separation carry growth"
+ },
+ "rotation at the source only, diluted": {
+  "t": -2.89,
+  "slope": -8.4,
+  "sd": 2.9,
+  "ratio": -0.07,
+  "u_all": -3.59,
+  "u_half": -3.65,
+  "masking_allowance": 5.2,
+  "outcome": "screens smaller than the separation carry less than half of the single-sight-line growth (95%): if that growth is real, it comes from something coherent across the two components"
+ }
+}

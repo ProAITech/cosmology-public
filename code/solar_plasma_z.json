@@ -1,0 +1,56 @@
+{
+ "column_centre_cm2": 4.01e+18,
+ "z_centre": 1.33e-06,
+ "v_centre_ms": 399.9,
+ "z_disk": 1.77e-06,
+ "v_disk_ms": 530.6,
+ "v_by_mu_ms": {
+  "1.00": 399.9,
+  "0.70": 509.4,
+  "0.50": 623.6,
+  "0.30": 802.4,
+  "0.10": 1116.5,
+  "0.05": 1234.5
+ },
+ "brynjolfsson_centre_z": 1e-06,
+ "brynjolfsson_centre_v_ms": 299.8,
+ "dv_per_10pct_ms": {
+  "Baumbach-Allen": 53.1,
+  "Brynjolfsson centre": 30.0
+ },
+ "dv_for_modulations_ms": {
+  "1.3": [
+   159,
+   90
+  ],
+  "1.6": [
+   318,
+   180
+  ],
+  "4.3": [
+   1751,
+   989
+  ]
+ },
+ "cutoff_um": {
+  "T=1e+06,r=1.01": 1.58,
+  "T=1e+06,r=1.1": 2.55,
+  "T=1e+06,r=1.3": 5.09,
+  "T=1e+06,r=2.0": 16.53,
+  "T=2e+06,r=1.01": 3.16,
+  "T=2e+06,r=1.1": 5.1,
+  "T=2e+06,r=1.3": 10.18,
+  "T=2e+06,r=2.0": 33.07
+ },
+ "share_column_below_1p3": 0.747,
+ "gr_ms": 633.1,
+ "observed_ms": [
+  638.0,
+  6.0
+ ],
+ "plasma_allowed_on_top_of_GR_2sigma_ms": 16.9,
+ "plasma_allowed_fraction_of_BA": 0.032,
+ "plasma_only_needs_column_factor": 1.2,
+ "harpsn_daily_mad_ms": 1.07,
+ "allowed_column_change_daily": 0.002
+}

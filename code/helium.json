@@ -1,0 +1,175 @@
+{
+ "BBN": [
+  0.2467,
+  0.0002
+ ],
+ "half_claim_Y": 0.1234,
+ "routes": [
+  {
+   "key": "hii",
+   "name": "H II regions, LBT 2026",
+   "Y": 0.2458,
+   "em": 0.0013,
+   "ep": 0.0013,
+   "sig_BBN": -0.68,
+   "sig_above_half": 94.2
+  },
+  {
+   "key": "cmb",
+   "name": "CMB damping tail, ACT DR6",
+   "Y": 0.2312,
+   "em": 0.0092,
+   "ep": 0.0092,
+   "sig_BBN": -1.68,
+   "sig_above_half": 11.7
+  },
+  {
+   "key": "gc",
+   "name": "Oldest stars: 57 globular clusters",
+   "Y": 0.25,
+   "em": 0.006,
+   "ep": 0.006,
+   "sig_BBN": 0.55,
+   "sig_above_half": 21.1
+  },
+  {
+   "key": "igm",
+   "name": "Gas cloud at z = 1.72",
+   "Y": 0.25,
+   "em": 0.025,
+   "ep": 0.033,
+   "sig_BBN": 0.13,
+   "sig_above_half": 5.1
+  }
+ ],
+ "other_HII": [
+  {
+   "name": "EMPRESS 2025",
+   "Y": 0.2402,
+   "em": 0.004,
+   "ep": 0.004,
+   "sig_BBN": -1.62,
+   "sig_above_half": 29.2
+  },
+  {
+   "name": "Izotov 2014",
+   "Y": 0.2551,
+   "em": 0.0022,
+   "ep": 0.0022,
+   "sig_BBN": 3.8,
+   "sig_above_half": 59.9
+  },
+  {
+   "name": "Aver 2015",
+   "Y": 0.2449,
+   "em": 0.004,
+   "ep": 0.004,
+   "sig_BBN": -0.45,
+   "sig_above_half": 30.4
+  },
+  {
+   "name": "Hsyu 2020",
+   "Y": 0.2436,
+   "em": 0.004,
+   "ep": 0.0039,
+   "sig_BBN": -0.79,
+   "sig_above_half": 30.1
+  },
+  {
+   "name": "Kurichin 2021",
+   "Y": 0.2462,
+   "em": 0.0022,
+   "ep": 0.0022,
+   "sig_BBN": -0.23,
+   "sig_above_half": 55.8
+  },
+  {
+   "name": "EMPRESS 2022",
+   "Y": 0.237,
+   "em": 0.0033,
+   "ep": 0.0034,
+   "sig_BBN": -2.85,
+   "sig_above_half": 34.4
+  },
+  {
+   "name": "Aver 2022",
+   "Y": 0.2448,
+   "em": 0.0033,
+   "ep": 0.0033,
+   "sig_BBN": -0.57,
+   "sig_above_half": 36.8
+  }
+ ],
+ "combined": {
+  "Y": 0.24572,
+  "err": 0.00126,
+  "sig_BBN": -0.77,
+  "chi2": 3.03,
+  "dof": 3,
+  "p": 0.39
+ },
+ "combined_without_HII": {
+  "Y": 0.2446,
+  "err": 0.0049,
+  "sig_BBN": -0.42
+ },
+ "HII_spread": {
+  "min": 0.2402,
+  "max": 0.2551,
+  "range": 0.0149
+ },
+ "EMPRESS25_vs_LBT": 1.33,
+ "Izotov14_vs_LBT": 3.64,
+ "implied": {
+  "LBT": {
+   "dN_eff": -0.069,
+   "dN_eff_err": 0.101,
+   "xi_e": 0.0039,
+   "xi_e_err": 0.0057
+  },
+  "EMPRESS 2025": {
+   "dN_eff": -0.5,
+   "dN_eff_err": 0.308,
+   "xi_e": 0.0283,
+   "xi_e_err": 0.0174
+  },
+  "combined": {
+   "dN_eff": -0.075,
+   "dN_eff_err": 0.098,
+   "xi_e": 0.0043,
+   "xi_e_err": 0.0055
+  }
+ },
+ "xi_005_vs_LBT_sigma": 8.1,
+ "H0": {
+  "N_eff": [
+   2.99,
+   0.07
+  ],
+  "H0": [
+   68.16,
+   0.5
+  ],
+  "direct": [
+   71.4,
+   1.2
+  ],
+  "sigma": 2.49
+ },
+ "floor": {
+  "per_target_err_Y": 0.0044,
+  "intrinsic_scatter_Y": 0.0025,
+  "intrinsic_scatter_Y_95": 0.006,
+  "chi2": 18.5,
+  "dof": 14
+ },
+ "helium_per_oxygen": {
+  "measured": 2.64,
+  "err": 2.27,
+  "needed_at_IZw18": 1369,
+  "ratio": 518,
+  "ratio_2sigma": 191,
+  "dY_across_sample": 0.0043,
+  "dY_across_sample_err": 0.0037
+ }
+}

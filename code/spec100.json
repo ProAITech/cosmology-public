@@ -1,0 +1,204 @@
+{
+ "cols": [
+  [
+   "Expanding",
+   "(ΛCDM)"
+  ],
+  [
+   "Static plasma",
+   "(Lerner)"
+  ],
+  [
+   "Static,",
+   "tired light"
+  ]
+ ],
+ "rows": [
+  {
+   "observable": "Light curves stretch with distance",
+   "measured": "supernovae stretch as (1 + z)1.003 ± 0.011",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "03"
+  },
+  {
+   "observable": "Gravitational waves stretch the same way",
+   "measured": "chirps of 259 mergers stretched as light is, to about 20%",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "79"
+  },
+  {
+   "observable": "CMB peaks and polarization from a plasma",
+   "measured": "plasma physics with no CMB input puts 17 polarization extrema within 1%",
+   "expanding": "p",
+   "lerner": "n",
+   "tired_light": "n",
+   "entries": "12, 92"
+  },
+  {
+   "observable": "The CMB comes from behind galaxies",
+   "measured": "lensed by galaxies at z ≈ 4 and quasars at z = 2.7; a local fog would pass 1 photon in 1,600",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "p",
+   "entries": "86"
+  },
+  {
+   "observable": "A thin second plasma, three ways",
+   "measured": "τ = 0.054 from the CMB, 0.047–0.050 from spectra; a static plasma needs 120 Gpc",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "94, 95"
+  },
+  {
+   "observable": "Electron columns to fast radio bursts",
+   "measured": "grow as ∫(1 + z)q dz with q = 0.51 ± 0.30; static laws need −1 to −3",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "96"
+  },
+  {
+   "observable": "The Lyman-α forest thickens",
+   "measured": "optical depth ∝ (1 + z)3.63 ± 0.08; static gives 0 or 1",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "82"
+  },
+  {
+   "observable": "Gas gets poorer in metals with distance",
+   "measured": "−0.27 ± 0.03 dex per unit redshift in 239 absorbers, 10σ",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "89"
+  },
+  {
+   "observable": "Too many faint radio sources",
+   "measured": "N(&gt;S) ∝ S−1.80 ± 0.04, 7σ beyond any unchanging universe",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "83"
+  },
+  {
+   "observable": "Distant galaxies are younger; the age ceiling falls",
+   "measured": "4000 Å break 0.14–0.26 shallower at z = 0.8 (4–11σ); oldest populations under t(z)",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "81, 99"
+  },
+  {
+   "observable": "The clustering ruler’s shape",
+   "measured": "Lerner’s law off by more than 20σ; tired light misses z = 2.33 by 5σ",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "03, 33"
+  },
+  {
+   "observable": "Cluster distances from shadow and glow",
+   "measured": "static space excluded at 6σ and 7–9σ with independent telescopes",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "27, 28, 32"
+  },
+  {
+   "observable": "Light elements",
+   "measured": "deuterium to 1.2%; lithium 3.4 times below prediction; helium from stars leaves its light missing",
+   "expanding": "t",
+   "lerner": "f",
+   "tired_light": "f",
+   "entries": "23, 30, 53, 98"
+  },
+  {
+   "observable": "What holds galaxies and clusters together",
+   "measured": "mass-to-flux 4–18 for the weighed mass; cluster β = 0.87 ± 0.06; young stars ride the gas",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "n",
+   "entries": "20, 87, 97"
+  },
+  {
+   "observable": "Black-hole images",
+   "measured": "rings of 10 GM/c² for masses weighed by stars",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "n",
+   "entries": "85"
+  },
+  {
+   "observable": "Currents along cosmic filaments",
+   "measured": "below about 2 × 10¹⁷ A; Peratt’s 10¹⁸–10¹⁹ A excluded",
+   "expanding": "p",
+   "lerner": "f",
+   "tired_light": "n",
+   "entries": "7, 13, 15, 68, 69"
+  }
+ ],
+ "frontier": [
+  {
+   "where": "Lithium-7",
+   "stands": "Predicted 3.4 times the oldest stars’ value; gas that halo stars never burned leans to the stars’ value, 1.5σ below the prediction (Entry 98).",
+   "decides": "The SMC cloud’s metallicity from oxygen or cold sulphur against its H I and H₂; a second low-metallicity sight line."
+  },
+  {
+   "where": "DESI’s ruler against the CMB",
+   "stands": "Changing dark energy at 2.4–3σ in our rebuilds (Entries 36–40); a larger optical depth cannot pay for it (Entry 95).",
+   "decides": "DESI’s final analysis (the survey finished in April 2026);425 supernovae with full error matrices."
+  },
+  {
+   "where": "The Hubble constant",
+   "stands": "One-step measurements average 71.4 ± 1.2 (Entry 56); the oldest stars favour 65.5–69.5 (Entry 99); the ladder says 73.",
+   "decides": "Lens time delays to ± 1; a third ruler near z = 2.3."
+  },
+  {
+   "where": "Early massive galaxies",
+   "stands": "A galaxy at z = 2.7 formed half its stars 108 Myr after the Big Bang (Entry 99); one JWST mass bin sits at the efficiency ceiling (Entry 14).",
+   "decides": "Spectroscopic masses for the z ≈ 9 candidates; more ancient galaxies with deep spectra."
+  },
+  {
+   "where": "The radio synchrotron background",
+   "stands": "Four times what counted sources give; cosmic-web plasma cannot make it (Entry 75). A new absolute measurement at 60–350 MHz confirms the excess and raises it, to about 201 K at 150 MHz.426",
+   "decides": "What the sources are: deeper counts and anisotropy limits."
+  },
+  {
+   "where": "Clumping (S₈)",
+   "stands": "Mostly closed at 0.825 ± 0.010 against 0.836, but the surveys disagree with one another (Entry 91).",
+   "decides": "Joint reanalysis of lensing surveys; Euclid."
+  },
+  {
+   "where": "Lopsided source counts",
+   "stands": "Quaia joins the excess at 2.3 ± 0.6 times the expected dipole (Entry 55).",
+   "decides": "The dipole in redshift slices of one clean sample."
+  },
+  {
+   "where": "Wide binaries and gravity",
+   "stands": "A few-percent boost at low acceleration is still allowed (Entries 14, 15).",
+   "decides": "Gaia DR4, due 2 December 2026."
+  },
+  {
+   "where": "The Giant Arc",
+   "stands": "A second catalogue finds it, but six of 53 other volumes score as high (Entry 66).",
+   "decides": "DESI’s Mg II absorbers, 270,529 in one public file, awaiting your go-ahead to download."
+  },
+  {
+   "where": "Currents along star-forming clouds (plasma, open)",
+   "stands": "Field reversals across Orion A, California and Perseus allow 2–9 × 10¹⁵ A per cloud (Entry 73).",
+   "decides": "SPICE-RACS DR2, one 5 GB file, awaiting your go-ahead to download."
+  }
+ ],
+ "key": {
+  "p": "fits",
+  "f": "fails",
+  "t": "tension",
+  "n": "no prediction"
+ }
+}

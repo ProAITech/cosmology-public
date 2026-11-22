@@ -1,0 +1,118 @@
+{
+ "null_1": {
+  "counts": {
+   "matched": 4000,
+   "dropped_latitude": 1354,
+   "dropped_neighbours": 0,
+   "kept": 2646
+  },
+  "t": 0.09,
+  "b": 0.24,
+  "null_sd": 1.26,
+  "outcome": "flat, the standard picture (|t| < 2)",
+  "sigma": [
+   6.2,
+   6.5,
+   6.8,
+   6.3,
+   6.3,
+   6.4,
+   6.2,
+   6.6
+  ]
+ },
+ "null_2": {
+  "counts": {
+   "matched": 4000,
+   "dropped_latitude": 1330,
+   "dropped_neighbours": 0,
+   "kept": 2670
+  },
+  "t": 0.58,
+  "b": 0.6,
+  "null_sd": 1.11,
+  "outcome": "flat, the standard picture (|t| < 2)",
+  "sigma": [
+   6.8,
+   6.2,
+   7.3,
+   6.3,
+   6.4,
+   6.8,
+   6.8,
+   6.9
+  ]
+ },
+ "null_3": {
+  "counts": {
+   "matched": 4000,
+   "dropped_latitude": 1361,
+   "dropped_neighbours": 0,
+   "kept": 2639
+  },
+  "t": -0.39,
+  "b": -0.34,
+  "null_sd": 1.2,
+  "outcome": "flat, the standard picture (|t| < 2)",
+  "sigma": [
+   6.2,
+   7.1,
+   6.8,
+   6.3,
+   7.1,
+   6.4,
+   6.5,
+   6.4
+  ]
+ },
+ "growth_20": {
+  "counts": {
+   "matched": 4001,
+   "dropped_latitude": 1355,
+   "dropped_neighbours": 0,
+   "kept": 2646
+  },
+  "t": 7.89,
+  "b": 17.22,
+  "null_sd": 2.13,
+  "outcome": "grows with redshift (t >= +3)",
+  "sigma": [
+   6.7,
+   9.0,
+   9.5,
+   9.3,
+   10.2,
+   11.7,
+   11.6,
+   13.8
+  ]
+ },
+ "growth_40": {
+  "counts": {
+   "matched": 4000,
+   "dropped_latitude": 1325,
+   "dropped_neighbours": 0,
+   "kept": 2675
+  },
+  "t": 10.43,
+  "b": 33.36,
+  "null_sd": 3.18,
+  "outcome": "grows with redshift (t >= +3)",
+  "sigma": [
+   10.6,
+   12.2,
+   13.2,
+   17.6,
+   16.1,
+   18.3,
+   20.3,
+   23.7
+  ]
+ },
+ "parser": {
+  "ra": 123.4567891,
+  "dec": -12.3456789,
+  "type": "QR",
+  "z": 1.234
+ }
+}

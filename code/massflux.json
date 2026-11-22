@@ -1,0 +1,192 @@
+{
+ "K_Msun_pc2_per_uG": 2.949,
+ "rows": [
+  {
+   "name": "Cold atomic clouds",
+   "B": [
+    6.0,
+    3.0,
+    10.0
+   ],
+   "note": "Heiles & Troland 2005: median field 6 uG in cold HI; N_H 1e20-1e21 cm^-2",
+   "Sgas": [
+    3.3647,
+    1.1216,
+    11.2157
+   ],
+   "lam_gas": [
+    0.19,
+    0.038,
+    1.268
+   ]
+  },
+  {
+   "name": "Molecular clouds",
+   "B": [
+    50.0,
+    15.0,
+    300.0
+   ],
+   "note": "Crutcher & Kemball 2019: N_H >~ 1e22 cm^-2, B ~ 10 uG (n/300)^0.65; on average 2-3 times supercritical",
+   "Sgas": [
+    336.471,
+    112.157,
+    1121.57
+   ],
+   "lam_gas": [
+    2.282,
+    0.127,
+    25.353
+   ]
+  },
+  {
+   "name": "Galactic disc near the Sun",
+   "B": [
+    6.0,
+    5.0,
+    7.0
+   ],
+   "note": "Field ~6 uG (Entry 16); gas 13.7 Msun/pc^2 (McKee et al. 2015); all mass within 1.1 kpc of the plane 68 +- 4 (Bovy & Rix 2013)",
+   "Sgas": [
+    13.7,
+    12.0,
+    15.5
+   ],
+   "lam_gas": [
+    0.774,
+    0.581,
+    1.051
+   ],
+   "Stot": [
+    68.0,
+    64.0,
+    72.0
+   ],
+   "lam_tot": [
+    3.843,
+    3.1,
+    4.883
+   ]
+  },
+  {
+   "name": "Starburst centres",
+   "B": [
+    75.0,
+    50.0,
+    100.0
+   ],
+   "note": "Beck 2015: 50-100 uG in central starbursts; Kennicutt 1998: starburst gas 1e3-1e4 Msun/pc^2 (stars add more)",
+   "Sgas": [
+    3000.0,
+    1000.0,
+    10000.0
+   ],
+   "lam_gas": [
+    13.563,
+    3.391,
+    67.816
+   ]
+  },
+  {
+   "name": "Milky Way halo, out to 100 kpc",
+   "B": [
+    0.73,
+    0.3,
+    1.0
+   ],
+   "note": "Halo field 0.73 uG (Entry 16); mass within ~100 kpc 2.75e11 (Jiao et al. 2023) to 5.4e11 Msun (Wang et al. 2022)",
+   "Stot": [
+    13.0507,
+    8.7535,
+    17.1887
+   ],
+   "lam_tot": [
+    6.062,
+    2.968,
+    19.428
+   ]
+  },
+  {
+   "name": "Rich cluster (Coma)",
+   "B": [
+    2.0,
+    1.0,
+    4.7
+   ],
+   "note": "Bonafede et al. 2010: 4.7 uG at the centre, falling outward; Kubo et al. 2007: M200 = 1.88e15/h Msun inside 1.99/h Mpc; gas 10-16% of the mass",
+   "Sgas": [
+    13.7513,
+    10.5779,
+    16.9247
+   ],
+   "lam_gas": [
+    2.331,
+    0.763,
+    5.739
+   ],
+   "Stot": [
+    105.7791,
+    74.2704,
+    142.3517
+   ],
+   "lam_tot": [
+    17.934,
+    5.358,
+    48.268
+   ]
+  },
+  {
+   "name": "Cosmic-web filaments",
+   "B": [
+    0.03,
+    0.011,
+    0.06
+   ],
+   "note": "Fields 11-15 nG (Carretti et al. 2025) to 30-60 nG (Vernstrom et al. 2021); 1.6e13 Msun in 7.1 x 2.5 /h Mpc (Epps & Hudson 2017); baryons 15.7% of it",
+   "Sgas": [
+    0.0693,
+    0.0563,
+    0.0823
+   ],
+   "lam_gas": [
+    0.784,
+    0.318,
+    2.538
+   ],
+   "Stot": [
+    0.4417,
+    0.3589,
+    0.5245
+   ],
+   "lam_tot": [
+    4.992,
+    2.028,
+    16.168
+   ]
+  }
+ ],
+ "peratt": {
+  "name": "Peratt-type galaxy filament",
+  "B": [
+   100.0,
+   30.0,
+   300.0
+  ],
+  "Stot": [
+   81.63,
+   24.49,
+   244.9
+  ],
+  "lam_tot": [
+   0.277,
+   0.028,
+   2.768
+  ],
+  "note": "Peratt, Peter & Snell 1990: filaments ~35 kpc wide with ~100 uG fields; a galaxy of 1e11 Msun (range 3e10-3e11) across that width",
+  "field_needed_for_lambda1_at_measured_halo": 4.4
+ },
+ "controls": {
+  "plasma sheet (n 0.3 cm^-3 over 10 Earth radii, 20 nT)": 3.6508833329783165e-14,
+  "solar corona (n 1e8 cm^-3 over 0.1 solar radius, 5 G)": 5.324204860593378e-10
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "main": 44,
+ "secondary": 11,
+ "main_x_range": [
+  -403.5612042733441,
+  347.97647842996025
+ ],
+ "main_y_range": [
+  -103.94400833145212,
+  200.25705070891843
+ ],
+ "bands": {
+  "200": {
+   "main_in_band": 37,
+   "f": 0.8409090909090909,
+   "secondary_in_band": 4,
+   "measured_E": -0.0575782245052876,
+   "null_mean": 0.012761801771247803,
+   "null_sd": 0.14472546193253946,
+   "cases": [
+    {
+     "field": 504,
+     "delta": 1.0,
+     "expected_in_band": 40.5,
+     "predicted_E": 0.457,
+     "sigma_above": 3.64
+    },
+    {
+     "field": 504,
+     "delta": 1.3,
+     "expected_in_band": 40.5,
+     "predicted_E": 0.516,
+     "sigma_above": 4.05
+    },
+    {
+     "field": 504,
+     "delta": 1.6,
+     "expected_in_band": 40.5,
+     "predicted_E": 0.562,
+     "sigma_above": 4.37
+    },
+    {
+     "field": 630,
+     "delta": 1.0,
+     "expected_in_band": 50.6,
+     "predicted_E": 0.365,
+     "sigma_above": 3.01
+    },
+    {
+     "field": 630,
+     "delta": 1.3,
+     "expected_in_band": 50.6,
+     "predicted_E": 0.413,
+     "sigma_above": 3.34
+    },
+    {
+     "field": 630,
+     "delta": 1.6,
+     "expected_in_band": 50.6,
+     "predicted_E": 0.45,
+     "sigma_above": 3.59
+    }
+   ]
+  },
+  "300": {
+   "main_in_band": 41,
+   "f": 0.9318181818181818,
+   "secondary_in_band": 7,
+   "measured_E": -0.06674946041573859,
+   "null_mean": -2.6901776815236145e-06,
+   "null_sd": 0.11745578470992489,
+   "cases": [
+    {
+     "field": 504,
+     "delta": 1.0,
+     "expected_in_band": 60.8,
+     "predicted_E": 0.337,
+     "sigma_above": 3.44
+    },
+    {
+     "field": 504,
+     "delta": 1.3,
+     "expected_in_band": 60.8,
+     "predicted_E": 0.381,
+     "sigma_above": 3.82
+    },
+    {
+     "field": 504,
+     "delta": 1.6,
+     "expected_in_band": 60.8,
+     "predicted_E": 0.415,
+     "sigma_above": 4.1
+    },
+    {
+     "field": 630,
+     "delta": 1.0,
+     "expected_in_band": 75.9,
+     "predicted_E": 0.27,
+     "sigma_above": 2.87
+    },
+    {
+     "field": 630,
+     "delta": 1.3,
+     "expected_in_band": 75.9,
+     "predicted_E": 0.305,
+     "sigma_above": 3.17
+    },
+    {
+     "field": 630,
+     "delta": 1.6,
+     "expected_in_band": 75.9,
+     "predicted_E": 0.332,
+     "sigma_above": 3.4
+    }
+   ]
+  }
+ }
+}

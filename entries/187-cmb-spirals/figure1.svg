@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 404" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fff"/>
+<rect x="398.7" y="50" width="54.9" height="288" fill="#f1e6c8"/>
+<text x="426.2" y="42" text-anchor="middle" fill="#8a6d1f" font-size="11">ceiling, Entry 47</text>
+<line x1="170.0" x2="170.0" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="170.0" y="354" text-anchor="middle" fill="#333">−35</text>
+<line x1="215.7" x2="215.7" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="215.7" y="354" text-anchor="middle" fill="#333">−30</text>
+<line x1="261.5" x2="261.5" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="261.5" y="354" text-anchor="middle" fill="#333">−25</text>
+<line x1="307.2" x2="307.2" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="307.2" y="354" text-anchor="middle" fill="#333">−20</text>
+<line x1="353.0" x2="353.0" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="353.0" y="354" text-anchor="middle" fill="#333">−15</text>
+<line x1="398.7" x2="398.7" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="398.7" y="354" text-anchor="middle" fill="#333">−10</text>
+<line x1="444.5" x2="444.5" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="444.5" y="354" text-anchor="middle" fill="#333">−5</text>
+<line x1="490.2" x2="490.2" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="490.2" y="354" text-anchor="middle" fill="#333">0</text>
+<line x1="536.0" x2="536.0" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="536.0" y="354" text-anchor="middle" fill="#333">+5</text>
+<line x1="581.7" x2="581.7" y1="50" y2="338" stroke="#e6e6e6"/>
+<text x="581.7" y="354" text-anchor="middle" fill="#333">+10</text>
+<line x1="490.2" x2="490.2" y1="50" y2="338" stroke="#888"/>
+<line x1="353.0" x2="353.0" y1="50" y2="338" stroke="#b5462f" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="353.0" y="42" text-anchor="middle" fill="#b5462f" font-size="11">−15 μK</text>
+<line x1="243.2" x2="243.2" y1="50" y2="338" stroke="#b5462f" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="243.2" y="42" text-anchor="middle" fill="#b5462f" font-size="11">−27 μK</text>
+<line x1="463.2" x2="517.9" y1="77.0" y2="77.0" stroke="#2f5bb7" stroke-width="2"/>
+<circle cx="490.6" cy="77.0" r="6" fill="#2f5bb7" stroke="#2f5bb7" stroke-width="1.5"/>
+<text x="160" y="81.0" text-anchor="end" fill="#222" font-weight="bold">SMICA (decides)</text>
+<line x1="460.8" x2="515.5" y1="113.0" y2="113.0" stroke="#2f5bb7" stroke-width="2"/>
+<circle cx="488.1" cy="113.0" r="4.5" fill="#2f5bb7" stroke="#2f5bb7" stroke-width="1.5"/>
+<text x="160" y="117.0" text-anchor="end" fill="#222">NILC</text>
+<line x1="466.2" x2="520.9" y1="149.0" y2="149.0" stroke="#2f5bb7" stroke-width="2"/>
+<circle cx="493.5" cy="149.0" r="4.5" fill="#2f5bb7" stroke="#2f5bb7" stroke-width="1.5"/>
+<text x="160" y="153.0" text-anchor="end" fill="#222">SEVEM</text>
+<line x1="464.1" x2="518.8" y1="185.0" y2="185.0" stroke="#2f5bb7" stroke-width="2"/>
+<circle cx="491.4" cy="185.0" r="4.5" fill="#2f5bb7" stroke="#2f5bb7" stroke-width="1.5"/>
+<text x="160" y="189.0" text-anchor="end" fill="#222">Commander</text>
+<line x1="460.8" x2="529.8" y1="221.0" y2="221.0" stroke="#2f5bb7" stroke-width="2"/>
+<circle cx="495.3" cy="221.0" r="4.5" fill="#2f5bb7" stroke="#2f5bb7" stroke-width="1.5"/>
+<text x="160" y="225.0" text-anchor="end" fill="#222">larger half</text>
+<line x1="449.3" x2="533.9" y1="257.0" y2="257.0" stroke="#2f5bb7" stroke-width="2"/>
+<circle cx="491.6" cy="257.0" r="4.5" fill="#2f5bb7" stroke="#2f5bb7" stroke-width="1.5"/>
+<text x="160" y="261.0" text-anchor="end" fill="#222">denser half</text>
+<line x1="422.7" x2="510.5" y1="293.0" y2="293.0" stroke="#7a7a7a" stroke-width="2"/>
+<circle cx="466.6" cy="293.0" r="4.5" fill="#7a7a7a" stroke="#7a7a7a" stroke-width="1.5"/>
+<text x="160" y="297.0" text-anchor="end" fill="#222">2MRS, z &lt; 0.02 (control)</text>
+<line x1="331.5" x2="391.1" y1="329.0" y2="329.0" stroke="#9a9a9a" stroke-width="2"/>
+<circle cx="361.3" cy="329.0" r="4.5" fill="#fff" stroke="#9a9a9a" stroke-width="1.5"/>
+<text x="160" y="333.0" text-anchor="end" fill="#222">injected −15 μK (test)</text>
+<text x="385.0" y="374" text-anchor="middle" fill="#333">cooling inside 0.2 Mpc implied by the stack (μK, ±1σ)</text>
+<text x="385.0" y="392" text-anchor="middle" fill="#b5462f" font-size="11">dashed: published coolings, −15 μK for nearby spirals and −27 μK for spirals in dense filaments</text>
+<text x="10" y="22" fill="#222" font-size="13" font-weight="bold">3,583 late-type spirals at z = 0.02–0.05, Planck PR3</text>
+</svg>

@@ -1,0 +1,104 @@
+{
+ "flat": {
+  "counts": {
+   "matched": 2400,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 2400,
+   "with_absorber": 539,
+   "without_absorber": 1861
+  },
+  "b_D": -1.48,
+  "t_D": -0.94,
+  "b_N": -2.71,
+  "t_N": -1.53,
+  "t_share": -0.64,
+  "drop": 0.68,
+  "random_sd": 1.07,
+  "excess_quadrature": 2.79,
+  "t_excess": 1.08,
+  "outcome": "unresolved: removing absorber sight lines does not lower the slope beyond chance (t_share > -2), but growth without them is not established (t_N < 3) and the half-share bound is not reached"
+ },
+ "growth_all_sightlines": {
+  "counts": {
+   "matched": 2400,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 2400,
+   "with_absorber": 590,
+   "without_absorber": 1810
+  },
+  "b_D": 20.1,
+  "t_D": 8.38,
+  "b_N": 16.31,
+  "t_N": 5.62,
+  "t_share": -0.78,
+  "drop": 1.13,
+  "random_sd": 1.44,
+  "excess_quadrature": 2.79,
+  "t_excess": 0.46,
+  "outcome": "detected absorbers are not the cause: growth persists without absorber sight lines (t_N >= +3) and removing them does not lower the slope (t_share > -2)"
+ },
+ "growth_from_absorbers": {
+  "counts": {
+   "matched": 2400,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 2400,
+   "with_absorber": 584,
+   "without_absorber": 1816
+  },
+  "b_D": 6.55,
+  "t_D": 3.04,
+  "b_N": 1.71,
+  "t_N": 0.68,
+  "t_share": -3.95,
+  "drop": 5.56,
+  "random_sd": 1.41,
+  "excess_quadrature": 9.95,
+  "t_excess": 8.54,
+  "outcome": "absorber sight lines carry the growth: removing them lowers the slope (t_share <= -3) and the rest is flat within errors (t_N < 2)"
+ },
+ "half_and_half": {
+  "counts": {
+   "matched": 2400,
+   "dropped_latitude": 0,
+   "dropped_neighbours": 0,
+   "kept": 2400,
+   "with_absorber": 580,
+   "without_absorber": 1820
+  },
+  "b_D": 8.48,
+  "t_D": 4.43,
+  "b_N": 6.14,
+  "t_N": 3.11,
+  "t_share": -1.3,
+  "drop": 1.86,
+  "random_sd": 1.43,
+  "excess_quadrature": 6.58,
+  "t_excess": 3.07,
+  "outcome": "detected absorbers are not the cause: growth persists without absorber sight lines (t_N >= +3) and removing them does not lower the slope (t_share > -2)"
+ },
+ "repeat_growth_all_sightlines": {
+  "skies": 24,
+  "t_share_mean": -0.15,
+  "t_share_sd": 0.89,
+  "t_share_min": -1.54,
+  "t_share_max": 1.92,
+  "t_N_mean": 5.21,
+  "t_N_sd": 0.92,
+  "share_le_minus3": 0,
+  "share_le_minus2": 0
+ },
+ "repeat_growth_from_absorbers": {
+  "skies": 24,
+  "t_share_mean": -3.1,
+  "t_share_sd": 1.05,
+  "t_share_min": -4.94,
+  "t_share_max": -0.83,
+  "t_N_mean": -0.33,
+  "t_N_sd": 1.17,
+  "share_le_minus3": 15,
+  "share_le_minus2": 20
+ }
+}

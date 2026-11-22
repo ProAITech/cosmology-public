@@ -1,0 +1,88 @@
+{
+ "counts": {
+  "apogee_rows_plx_gt_0p333": 496454,
+  "apogee_unique_gaia_ids": 433064,
+  "apogee_A": {
+   "desc": "plx > 0.333 mas, plx/e_plx > 20, e_HRV < 0.5, SNR >= 20, not (Nvis > 1 and s_HRV > 1)",
+   "n": 334439,
+   "gt300": 433,
+   "gt350": 86,
+   "gt400": 30,
+   "gt450": 14,
+   "gt475": 10,
+   "gt500": 8
+  },
+  "apogee_B": {
+   "desc": "as A, and Nvis >= 2 with visit scatter s_HRV < 1 km/s",
+   "n": 229000,
+   "gt300": 240,
+   "gt350": 41,
+   "gt400": 13,
+   "gt450": 0,
+   "fastest": 428
+  },
+  "single_visit_gt350": {
+   "n": 45,
+   "with_gaia_rv": 21,
+   "agree_10": 21
+  },
+  "fastest_single_visit_examples": [
+   [
+    -719.1,
+    "near Eta Carinae, RA 161.29 Dec -59.97",
+    949
+   ],
+   [
+    669.2,
+    "parallax 22.9 mas (44 pc)",
+    690
+   ],
+   [
+    578.2,
+    "parallax 39.1 mas (26 pc)",
+    646
+   ]
+  ],
+  "gaia_tail_query": {
+   "n": 36308,
+   "matched_apogee": 419,
+   "bright_grvs_lt12": 232,
+   "faint": 187
+  },
+  "gaia_vs_apogee_B": {
+   "bright": {
+    "n": 124,
+    "agree_10": 123,
+    "gt350_gaia_rv": 26,
+    "gt350_apogee_rv": 26
+   },
+   "faint": {
+    "n": 100,
+    "agree_10": 88,
+    "gt350_gaia_rv": 8,
+    "gt350_apogee_rv": 8
+   }
+  },
+  "entry151_n_gt350": 709
+ },
+ "fastest_test": {
+  "halo_482": {
+   "p_max_below_428": 0.055,
+   "median_fastest": 448.2
+  },
+  "main_515": {
+   "p_max_below_428": 0.056,
+   "median_fastest": 452.7
+  },
+  "mond_519": {
+   "p_max_below_428": 0.062,
+   "median_fastest": 452.3
+  }
+ },
+ "frac_agree": {
+  "bright": 0.992,
+  "faint": 0.88
+ },
+ "rescue_fraction": 0.0113,
+ "error_scaling": 4.2
+}

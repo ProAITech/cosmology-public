@@ -1,0 +1,17 @@
+{
+ "rule": "Workbench section 186, frozen 21 November 2026 19:21 UTC (commit dc22cee, Workbench version 197)",
+ "info": {"nvss_rows": 37543, "nvss_usable": 37543, "sources": 28128, "cluster_rows": 12247, "clusters": 9050, "median_e": 10.7, "median_theta500_arcmin": 3.007},
+ "decision": {"detection": "not seen at 1.4 GHz", "depolarization": "no difference detected between 1.4 and 0.9 GHz inside 0.5 R500", "t_D": 0.3638, "D": 49.64},
+ "spice_entry176": {"0-0.5": [174.6, 21.5], "0.5-1": [79.7, 11.9], "0-1": [105.5, 10.8]},
+ "ranges": [
+  {"range": "0-0.5", "n": 71, "n_rot": 33.2, "V": 376.76, "null_mean": 152.52, "null_sd": 134.75, "t": 1.664, "excess": 224.24, "upper95": 445.91},
+  {"range": "0.5-1", "n": 57, "n_rot": 97.4, "V": 47.61, "null_mean": 141.36, "null_sd": 77.64, "t": -1.207, "excess": -93.75, "upper95": 33.98},
+  {"range": "0-1", "n": 128, "n_rot": 130.6, "V": 159.77, "null_mean": 142.52, "null_sd": 67.69, "t": 0.255, "excess": 17.25, "upper95": 128.61},
+  {"range": "1-2", "n": 249, "n_rot": 375.6, "V": 94.17, "null_mean": 143.91, "null_sd": 37.59, "t": -1.323, "excess": -49.74, "upper95": 12.1},
+  {"range": "2-4", "n": 962, "n_rot": 1346.5, "V": 141.8, "null_mean": 142.53, "null_sd": 19.2, "t": -0.04, "excess": -0.7}
+ ],
+ "synthetic": {
+  "none": {"x<0.5": [-24.7, 80.8, -0.31], "0.5-1": [8.0, 40.1, 0.20], "x<1": [8.2, 36.3, 0.23], "1-2": [17.4, 21.7, 0.80], "2-4": [14.9, 10.9, 1.37], "note": "excess, null sd, t; simulated RMs N(0, sqrt(70)) plus noise e at the real positions"},
+  "cluster 400/100": {"x<0.5": [412.5, 81.4, 5.06], "0.5-1": [68.3, 44.6, 1.53], "x<1": [212.8, 40.5, 5.25], "1-2": [27.9, 22.5, 1.24], "2-4": [-0.4, 11.3, -0.03], "t_D": 2.82}
+ }
+}

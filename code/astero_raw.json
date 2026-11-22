@@ -1,0 +1,11 @@
+{"note":"Browser results. Seismic: Lund et al. 2017 LEGACY (J/ApJ/835/172, 63 matched), Serenelli et al. 2017 APOKASC dwarfs (J/ApJS/233/23, 356 more), Pinsonneault et al. 2018 APOKASC-2 giants (J/ApJS/239/32, 6,490). Radii and masses: Berger et al. 2020 Gaia-Kepler catalogue (J/AJ/159/280 table2), matched by KIC; 80 seismic stars unmatched. Teff: spectroscopic values in each seismic catalogue. Cool-interior ceiling: dnu_cool = c/(2R), c = sqrt(5/3 k Teff/(0.6 m_p)). T_min = Teff (dnu/dnu_cool)^2.",
+ "n":6909,"nomatch":80,"counts":{"LEGACY/dwarf":63,"Serenelli/dwarf":356,"APOKASC-2/RGB":3582,"APOKASC-2/RC":2433,"APOKASC-2/RC(S)":275,"APOKASC-2/REJECT":7,"APOKASC-2/RGB(S)":143,"APOKASC-2/AMB":50},
+ "fit_logdnu_logR":[2.13,-1.442],"fit_slope_bootstrap_sd":0.009,"fit_logdnu_logR_logM":[2.107,-1.502,0.464],"slope_dwarfs_only":-1.316,"slope_giants_only":-1.388,
+ "dwarfs":{"n":419,"ratio_16_50_84":[11.6,13.2,14.9],"Tmin_kK_16_50_84":[770,1057,1372],"min_ratio":6.3,"R_2_98":[1.083,4.008],"M_median":1.25,"Teff_median":6066},
+ "giants":{"n":6490,"ratio_16_50_84":[5.3,6.4,8.1],"Tmin_kK_16_50_84":[132,196,319],"min_ratio":0.1,"R_2_98":[4.444,30.509],"M_median":1.48,"Teff_median":4753},
+ "n_ratio_below_3":39,
+ "bins_cols":["logR_centre","n","logdnu_16","logdnu_50","logdnu_84","logdnu_cool_50"],
+ "bins":[[0,7,2.069,2.091,2.18,0.895],[0.1,54,1.955,2,2.047,0.818],[0.2,102,1.821,1.867,1.924,0.721],[0.3,116,1.688,1.743,1.791,0.63],[0.4,88,1.536,1.623,1.667,0.532],[0.5,50,1.349,1.424,1.513,0.392],[0.6,137,1.183,1.228,1.254,0.265],[0.7,415,1.048,1.108,1.166,0.175],[0.8,552,0.901,0.973,1.034,0.076],[0.9,919,0.739,0.806,0.895,-0.037],[1,2137,0.595,0.64,0.746,-0.149],[1.1,1511,0.514,0.602,0.662,-0.193],[1.2,280,0.316,0.406,0.524,-0.322],[1.3,205,0.144,0.21,0.324,-0.442],[1.4,157,0.022,0.106,0.174,-0.533],[1.5,106,-0.161,-0.089,0.035,-0.645],[1.6,54,-0.268,-0.204,-0.127,-0.758]],
+ "hist_logT_start":3.5,"hist_step":0.1,
+ "hist_dwarfs":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,8,27,34,104,141,82,12,6,0,0],
+ "hist_giants":[0,1,1,2,1,1,2,0,5,9,26,55,91,131,213,374,917,1529,1217,843,686,330,31,10,8,4,0,1,0,1,0]}

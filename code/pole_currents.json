@@ -1,0 +1,23 @@
+{"date":"2026-11-11","units":"1e18 A, standard halo; +Q = current out along both poles (the Milky Way's sense); +A = current along the spin",
+ "fit":{"bin_kpc":30,"bout_kpc":200,"foreground_order":2,"patterns":"through and poles fitted together"},
+ "galaxies":[
+  {"name":"NGC 300","spin":true,"cuts60":true,"n":1214,"A":0.214,"robA":0.298,"Q":0.160,"formalQ":0.096,"robQ":0.276},
+  {"name":"ESO 154-G023","spin":true,"cuts60":true,"n":331,"A":0.113,"robA":0.172,"Q":-0.177,"formalQ":0.098,"robQ":0.161},
+  {"name":"NGC 1311","spin":true,"cuts60":true,"n":317,"A":0.165,"robA":0.194,"Q":0.035,"formalQ":0.079,"robQ":0.171},
+  {"name":"IC 1959","spin":true,"cuts60":true,"n":300,"A":0.095,"robA":0.187,"Q":0.164,"formalQ":0.088,"robQ":0.169},
+  {"name":"IC 1954","spin":true,"cuts60":true,"n":56,"A":0.473,"robA":0.427,"Q":0.304,"formalQ":0.309,"robQ":0.461},
+  {"name":"NGC 685","spin":true,"cuts60":false,"n":36,"A":1.143,"robA":0.663,"Q":1.427,"formalQ":0.968,"robQ":0.808},
+  {"name":"NGC 1672","spin":true,"cuts60":false,"n":77,"A":0.451,"robA":0.665,"Q":0.190,"formalQ":0.521,"robQ":1.016},
+  {"name":"NGC 1035","spin":false,"n":51,"Q":-0.184,"formalQ":0.192,"robQ":0.388},
+  {"name":"IC 1914","spin":false,"n":51,"Q":0.708,"formalQ":0.320,"robQ":0.421},
+  {"name":"IC 1933","spin":false,"n":75,"Q":0.091,"formalQ":0.247,"robQ":0.454},
+  {"name":"NGC 1527","spin":false,"n":63,"Q":0.210,"formalQ":0.121,"robQ":0.357},
+  {"name":"NGC 7205","spin":false,"n":33,"Q":-0.269,"formalQ":0.299,"robQ":0.750}],
+ "left_out":{"name":"NGC 625","Q":-2.46,"formalQ":3.4,"robQ":0.16,"why":"pattern cannot be told from the foreground with its sight lines"},
+ "stack_Q":{"five":[0.029,0.142,-0.269,0.317],"seven":[0.047,0.141,-0.246,0.332],"twelve":[0.067,0.132,-0.205,0.331],"positive_of_twelve":9,"chi2_twelve":9.7},
+ "sign_ignored_limit95":{"five":0.24,"seven":0.245,"twelve":0.23},
+ "stack_A_joint":{"five":[0.151,0.144],"seven":[0.177,0.142]},
+ "milky_way":{"pole_current":0.09,"sense":"out along both poles"},
+ "pattern_rad_m2_per_1e18A":{"kpc":[30,60,100,150],"value":[23.2,8.2,3.8,2.1],"note":"45 deg from the axes, inclination 80"},
+ "ngc300_ring_15_30kpc":{"sources":35,"axis290":{"cos1":-7.14,"sin1":-2.46,"sin2":1.27,"cos2":1.96},"axis310":{"cos1":-7.55,"sin1":0.13,"sin2":-0.29,"cos2":2.32},"axis332":{"cos1":-6.95,"sin1":2.95,"sin2":-1.82,"cos2":1.47},"blank_rings":108,"blank_sd_cos1":3.27,"blank_sd_sin2":3.22}
+}

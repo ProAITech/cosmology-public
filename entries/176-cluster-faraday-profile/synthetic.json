@@ -1,0 +1,83 @@
+{
+ "no_cluster_effect": {
+  "counts": {
+   "high_latitude": 80373,
+   "kept": 80373
+  },
+  "n": {
+   "A": 587,
+   "B": 1628,
+   "C": 6014
+  },
+  "t": {
+   "A": 0.88,
+   "B": 0.1,
+   "C": -0.62
+  },
+  "excess_quadrature": {
+   "A": 2.5,
+   "B": 0.65,
+   "C": -1.15
+  },
+  "decision": {
+   "check_A": "inside R500 no excess is established (t < 3): the ranges beyond are reported, and no claim is made from them",
+   "B": "no excess at 1 to 2 R500 (|t| < 2)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)",
+   "claim": "no claim beyond R500"
+  }
+ },
+ "excess_inside_R500_only": {
+  "counts": {
+   "high_latitude": 80346,
+   "kept": 80346
+  },
+  "n": {
+   "A": 524,
+   "B": 1629,
+   "C": 6128
+  },
+  "t": {
+   "A": 47.42,
+   "B": -0.25,
+   "C": -0.88
+  },
+  "excess_quadrature": {
+   "A": 19.31,
+   "B": -1.06,
+   "C": -1.31
+  },
+  "decision": {
+   "check_A": "inside R500 the scatter is raised (t >= +3): the method sees cluster plasma",
+   "B": "no excess at 1 to 2 R500 (|t| < 2)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)",
+   "claim": "no claim beyond R500"
+  }
+ },
+ "excess_to_2_R500": {
+  "counts": {
+   "high_latitude": 80587,
+   "kept": 80587
+  },
+  "n": {
+   "A": 580,
+   "B": 1620,
+   "C": 5926
+  },
+  "t": {
+   "A": 52.16,
+   "B": 7.42,
+   "C": -1.27
+  },
+  "excess_quadrature": {
+   "A": 19.05,
+   "B": 5.5,
+   "C": -1.68
+  },
+  "decision": {
+   "check_A": "inside R500 the scatter is raised (t >= +3): the method sees cluster plasma",
+   "B": "excess scatter at 1 to 2 R500 (t >= +3)",
+   "C": "no excess at 2 to 4 R500 (|t| < 2)",
+   "claim": "magnetised plasma is seen beyond R500"
+  }
+ }
+}

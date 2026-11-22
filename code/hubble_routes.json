@@ -1,0 +1,215 @@
+{
+ "targets": {
+  "direct": [
+   71.4,
+   1.2
+  ],
+  "SH0ES": [
+   73.17,
+   0.86
+  ],
+  "CCHP": [
+   70.39,
+   1.94
+  ]
+ },
+ "rows": [
+  {
+   "route": "none",
+   "label": "Standard model",
+   "data": "Planck + ACT DR6 + DESI DR2 + Pantheon+",
+   "H0": 68.35,
+   "em": 0.27,
+   "ep": 0.27,
+   "k": 0,
+   "src": "toda",
+   "sig_direct": 2.48,
+   "sig_SH0ES": 5.35,
+   "sig_CCHP": 1.04,
+   "gap_closed_direct": 0.0
+  },
+  {
+   "route": "none",
+   "label": "Standard model",
+   "data": "Planck + ACT + SPT + DESI DR2",
+   "H0": 68.27,
+   "em": 0.26,
+   "ep": 0.26,
+   "k": 0,
+   "src": "lynch",
+   "sig_direct": 2.55,
+   "sig_SH0ES": 5.45,
+   "sig_CCHP": 1.08,
+   "gap_closed_direct": 0.0
+  },
+  {
+   "route": "neff",
+   "label": "Extra radiation (N_eff free)",
+   "data": "Planck + ACT + SPT + DESI DR2 + helium + deuterium",
+   "H0": 68.16,
+   "em": 0.5,
+   "ep": 0.5,
+   "k": 1,
+   "src": "goldstein",
+   "sig_direct": 2.49,
+   "sig_SH0ES": 5.04,
+   "sig_CCHP": 1.11,
+   "gap_closed_direct": -0.04
+  },
+  {
+   "route": "clump",
+   "label": "Clumping by primordial fields",
+   "data": "Planck + ACT + SPT + DESI DR2",
+   "H0": 68.6,
+   "em": 0.3,
+   "ep": 0.3,
+   "k": 2,
+   "src": "lynch",
+   "sig_direct": 2.26,
+   "sig_SH0ES": 5.02,
+   "sig_CCHP": 0.91,
+   "gap_closed_direct": 0.11
+  },
+  {
+   "route": "clump",
+   "label": "Clumping by primordial fields",
+   "data": "Planck + ACT DR6 + DESI DR1",
+   "H0": 69.1,
+   "em": 0.5,
+   "ep": 0.5,
+   "k": 1,
+   "src": "act",
+   "sig_direct": 1.77,
+   "sig_SH0ES": 4.09,
+   "sig_CCHP": 0.64,
+   "gap_closed_direct": 0.28
+  },
+  {
+   "route": "ede",
+   "label": "Early dark energy",
+   "data": "Planck + ACT DR6 + DESI DR2 + Pantheon+",
+   "H0": 69.17,
+   "em": 0.9,
+   "ep": 0.38,
+   "k": 3,
+   "src": "toda",
+   "sig_direct": 1.77,
+   "sig_SH0ES": 4.25,
+   "sig_CCHP": 0.62,
+   "gap_closed_direct": 0.27
+  },
+  {
+   "route": "ede",
+   "label": "Early dark energy",
+   "data": "Planck + ACT DR6 + DESI DR1",
+   "H0": 69.9,
+   "em": 1.5,
+   "ep": 0.8,
+   "k": 3,
+   "src": "act",
+   "sig_direct": 1.04,
+   "sig_SH0ES": 2.78,
+   "sig_CCHP": 0.23,
+   "gap_closed_direct": 0.53
+  },
+  {
+   "route": "ede",
+   "label": "Early dark energy (profile likelihood)",
+   "data": "Planck + ACT DR6 + DESI DR2 + Pantheon+",
+   "H0": 71.0,
+   "em": 1.1,
+   "ep": 1.1,
+   "k": 3,
+   "src": "poulin",
+   "sig_direct": 0.25,
+   "sig_SH0ES": 1.55,
+   "sig_CCHP": -0.27,
+   "gap_closed_direct": 0.87
+  },
+  {
+   "route": "rec",
+   "label": "Free-form recombination",
+   "data": "Planck + ACT DR6 + DESI DR1",
+   "H0": 69.6,
+   "em": 1.0,
+   "ep": 1.0,
+   "k": 4,
+   "src": "act",
+   "sig_direct": 1.15,
+   "sig_SH0ES": 2.71,
+   "sig_CCHP": 0.36,
+   "gap_closed_direct": 0.44
+  },
+  {
+   "route": "me",
+   "label": "Heavier electron",
+   "data": "Planck + ACT DR6 + DESI DR2 + Pantheon+",
+   "H0": 69.41,
+   "em": 0.68,
+   "ep": 0.68,
+   "k": 1,
+   "src": "toda",
+   "sig_direct": 1.44,
+   "sig_SH0ES": 3.43,
+   "sig_CCHP": 0.48,
+   "gap_closed_direct": 0.35
+  },
+  {
+   "route": "me",
+   "label": "Heavier electron",
+   "data": "Planck + ACT DR6 + DESI DR1",
+   "H0": 69.8,
+   "em": 1.1,
+   "ep": 1.1,
+   "k": 1,
+   "src": "act",
+   "sig_direct": 0.98,
+   "sig_SH0ES": 2.41,
+   "sig_CCHP": 0.26,
+   "gap_closed_direct": 0.5
+  },
+  {
+   "route": "mek",
+   "label": "Heavier electron + curvature",
+   "data": "Planck + ACT DR6 + DESI DR1",
+   "H0": 71.0,
+   "em": 1.7,
+   "ep": 1.7,
+   "k": 2,
+   "src": "act",
+   "sig_direct": 0.19,
+   "sig_SH0ES": 1.14,
+   "sig_CCHP": -0.24,
+   "gap_closed_direct": 0.87
+  },
+  {
+   "route": "mek",
+   "label": "Heavier electron + curvature",
+   "data": "Planck + DESI DR1 + Pantheon+",
+   "H0": 71.61,
+   "em": 1.0,
+   "ep": 1.0,
+   "k": 2,
+   "src": "sv",
+   "sig_direct": -0.13,
+   "sig_SH0ES": 1.18,
+   "sig_CCHP": -0.56,
+   "gap_closed_direct": 1.07
+  }
+ ],
+ "dr2_best": "Heavier electron",
+ "dr2_range": [
+  68.16,
+  69.41
+ ],
+ "mek_act": {
+  "me": [
+   1.022,
+   0.016
+  ],
+  "Ok": [
+   -0.0031,
+   0.0037
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "sigma_between_sources": 8.924992149624657,
+ "excess_variance": 79.65548487086176,
+ "lambda4_mean": 0.011025973481488337,
+ "depolarization_if_uncorrelated": 0.17263797145564252,
+ "polarization_ratio_survivors": 0.9132395305278986,
+ "ratio_error": 0.039231105032064215,
+ "share_lost_at_most": 0.13987494856644525,
+ "kept": 0.7855001981664642,
+ "kept_lower": 0.7180128856994653,
+ "central": {
+  "polarization_kept": 0.7855001981664642,
+  "variance_inside_source_at_most": 10.94844683833013,
+  "share_of_between_source_variance": 0.13744749474665627,
+  "lambda_over_diameter_at_least": 0.9
+ },
+ "conservative": {
+  "polarization_kept": 0.7180128856994653,
+  "variance_inside_source_at_most": 15.02215491423435,
+  "share_of_between_source_variance": 0.18858908383507317,
+  "lambda_over_diameter_at_least": 0.75
+ },
+ "in_kpc": {
+  "1 arcsec": {
+   "central": 4.0,
+   "conservative": 3.4
+  },
+  "2 arcsec": {
+   "central": 8.1,
+   "conservative": 6.8
+  },
+  "5 arcsec": {
+   "central": 20.2,
+   "conservative": 16.9
+  },
+  "10 arcsec": {
+   "central": 40.5,
+   "conservative": 33.8
+  }
+ }
+}

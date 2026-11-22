@@ -1,0 +1,51 @@
+{
+ "rows": 9294225,
+ "row_bytes": 1030,
+ "columns": 125,
+ "categorical_counts": {
+  "catalog_name": {
+   "SPICE-RACS DR2": 9294225
+  },
+  "telescope": {
+   "ASKAP": 9294225
+  },
+  "dataref": {
+   "https://data.csiro.au/collection/csiro:64891": 9294225
+  },
+  "type": {
+   "?": 9294225
+  },
+  "notes": {
+   "?": 9294225
+  },
+  "flux_type": {
+   "Peak": 9294225
+  },
+  "rm_method": {
+   "RM Synthesis - Fractional polarization": 9294225
+  }
+ },
+ "flag_counts": {
+  "snr_flag": {
+   "T": 8955912,
+   "F": 338313,
+   "other": 0
+  },
+  "leakage_flag": {
+   "T": 137146,
+   "F": 9157079,
+   "other": 0
+  },
+  "channel_flag": {
+   "T": 2096,
+   "F": 9292129,
+   "other": 0
+  },
+  "stokesI_fit_flag": {
+   "T": 4749974,
+   "F": 4544251,
+   "other": 0
+  }
+ },
+ "seconds": 51
+}

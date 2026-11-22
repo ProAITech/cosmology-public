@@ -1,0 +1,79 @@
+{
+ "plasma": {
+  "T_eV": 1.8,
+  "z": 7662.963769664819,
+  "n_b": 112775.52742991743,
+  "n_H": 84953.8048129568,
+  "n_He": 6955.430654240158,
+  "n_e": 98864.66612143713
+ },
+ "thermal": {
+  "gamow_peak_keV": 0.18444634656787867,
+  "tau": 307.41057761313107,
+  "log10_sigma_v_cm3_s": -145.35557956226086,
+  "log10_K": -129.23887600710376
+ },
+ "below_threshold": {
+  "threshold_MeV": 22.97289471663919,
+  "coulomb_log_mid": 28.403835251218005,
+  "hbar_omega_p_eV": 1.1675563789245447e-08,
+  "column_e_cm2": 3.7671434323881403e+22,
+  "column_H_cm2": 3.237083382898518e+22,
+  "evaporated_per_H_reading_A": 0.011771103156612053,
+  "cases": [
+   {
+    "sigma_b": 0.1,
+    "label": "representative",
+    "destroyed_per_proton_per_H": 0.003237083382898518,
+    "destroyed_reading_A": 3.810404242665317e-05,
+    "protons_per_H_for_ln3": 339.38337655188883
+   },
+   {
+    "sigma_b": 0.5,
+    "label": "ceiling",
+    "destroyed_per_proton_per_H": 0.016185416914492587,
+    "destroyed_reading_A": 0.0001905202121332658,
+    "protons_per_H_for_ln3": 67.87667531037778
+   }
+  ]
+ },
+ "above_threshold": {
+  "He_per_H": 0.08187309172972256,
+  "cases": [
+   {
+    "sigma_He_over_sigma_Li": 0.2,
+    "He_destroyed_for_Li_to_a_third": 0.1972584382397693,
+    "D_over_H_added": {
+     "0.01": 0.00016150158208466444,
+     "0.3": 0.0048450474625399325
+    }
+   },
+   {
+    "sigma_He_over_sigma_Li": 0.4,
+    "He_destroyed_for_Li_to_a_third": 0.35560598502274576,
+    "D_over_H_added": {
+     "0.01": 0.0002911456143140561,
+     "0.3": 0.008734368429421683
+    }
+   },
+   {
+    "sigma_He_over_sigma_Li": 0.5,
+    "He_destroyed_for_Li_to_a_third": 0.42264973081037427,
+    "D_over_H_added": {
+     "0.01": 0.00034603640180180323,
+     "0.3": 0.010381092054054096
+    }
+   }
+  ],
+  "Li_destroyed_at_most_y0.3": {
+   "He_destroyed_at_most": 3.664207539521686e-05,
+   "Li_destroyed_at_most_ratio0p4": 9.160267105023934e-05,
+   "Li_destroyed_at_most_ratio0p2": 0.00018319695105117884
+  },
+  "Li_destroyed_at_most_y0.1": {
+   "He_destroyed_at_most": 0.00010992622618565056,
+   "Li_destroyed_at_most_ratio0p4": 0.00027479290880072504,
+   "Li_destroyed_at_most_ratio0p2": 0.0005495103064587781
+  }
+ }
+}
