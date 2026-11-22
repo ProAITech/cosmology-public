@@ -52,7 +52,7 @@ Entry 170 also uses `code/neutron_li_primat.py`, `code/neutron_li_shapes.py`, `c
 
 ## Pre-registration
 
-Most tests from Entry 164 on were decided by a rule (the statistic, the null test and the thresholds) fixed before the data were combined, in a dated commit to the private working repository. Each entry's README states what was fixed and what had already been read. A public, citable copy of those dated records has not yet been made, so they cannot be verified from this repository.
+Most tests from Entry 164 on were decided by a rule (the statistic, the null test and the thresholds) fixed before the data were combined, in a dated commit to the private working repository. Each entry's README states what was fixed and what had already been read. The dated records are not part of this repository; they are available from the corresponding author on request.
 
 ## Contact
 
