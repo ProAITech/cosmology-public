@@ -61,3 +61,8 @@ The equal-weight stack uses 1,000 uniform random rotations of the whole sample a
 ```
 
 More files: `samples/readout.txt` and `samples/check.py` (the transfer and its check); `result_<sample>_<map>.json` and `results.json`; `figure.py` and `figure1.svg`.
+
+## After the result
+
+- `radial.py`, `radial_<sample>_smica_l5.json`: the radial temperature profile (0–0.2, 0.2–0.5, 0.5–1, 1–1.5, 1.5–2 and 2–3 Mpc) around samples P, P_dense and A_2MRS, with the same 1,000 rotations and the beam-smoothed profile of a −15 μK cooling. Not pre-registered; reported as such. `radial_fit.py`, `radial_fit.json`: the beam-smoothed shapes fitted to all six rings with the rotation covariance (sample P: top hat −0.99 ± 0.86 μK, published shape +1.17 ± 1.73 μK), checked on split halves of the rotations. Each rotation's profile is kept in `work/` (git-ignored).
+- `draft.md`: a draft manuscript, with its figure (`draft_figure.py`, `draft_figure.svg`) and `preprint.py`, which builds `preprint.html`; the PDF is typeset with LaTeX. The draft and preprint are not copied to the public repository.

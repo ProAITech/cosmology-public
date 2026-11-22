@@ -1,6 +1,6 @@
 # A cosmology inquiry: analysis code and derived results
 
-This repository holds the analysis scripts, the derived results and the small data tables of an inquiry that tests claims made for plasma cosmology, and related open questions, against public data. A run of tests on public catalogues (Entries 164–187) is the basis of five manuscripts in preparation. It is a snapshot taken on 22 November 2026 from the working repository, which is private; its history is not included.
+This repository holds the analysis scripts, the derived results and the small data tables of an inquiry that tests claims made for plasma cosmology, and related open questions, against public data. A run of tests on public catalogues (Entries 164–187) is the basis of six manuscripts in preparation. It is a snapshot taken on 22 November 2026 from the working repository, which is private; its history is not included.
 
 ## Layout
 
@@ -37,7 +37,7 @@ This repository holds the analysis scripts, the derived results and the small da
 | 183 | Can source luminosity be separated from redshift in the growth? | not with this sample (power study) | `entries/183-faraday-luminosity/` | Faraday rotation and redshift |
 | 184 | Is Entry 113’s helium neutron clock right? | confirmed (check) | `code/neutron_clock_prymordial.py` |  |
 | 186 | Is the cluster Faraday signal seen at 1.4 GHz (NVSS)? | no decision | `entries/186-nvss-clusters/` |  |
-| 187 | Is the CMB colder around spirals at z = 0.02–0.05? | excluded | `entries/187-cmb-spirals/` |  |
+| 187 | Is the CMB colder around spirals at z = 0.02–0.05? | excluded | `entries/187-cmb-spirals/` || CMB around spirals |
 
 Entry 170 also uses `code/neutron_li_primat.py`, `code/neutron_li_shapes.py`, `code/neutron_li_prymordial.py` and `code/neutron_li_protons.py`. Entry 184 is `code/neutron_clock_prymordial.py`. Entry 185 is a summary table and has no code.
 
