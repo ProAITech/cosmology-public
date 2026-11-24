@@ -144,7 +144,7 @@ Every variant lies between 1.83 and 2.51 μG. In round numbers: **B = 2.0 ± 0.3
 
 ## What it does and does not show
 
-- Magnetised cluster plasma is detected at about ten standard deviations with one survey's rotation measures and one cluster catalogue, in both Galactic hemispheres, under two nulls, and it grows with cluster mass. Sharma, Ravi and Krause (2026, arXiv:2610.37646), stacking SPICE-RACS around DESI groups and ROSAT clusters, reported limits only; the gain here is the size of the eRASS1 catalogue and the scaling of each cluster by its own R500.
+- Magnetised cluster plasma is detected at about ten standard deviations with one survey's rotation measures and one cluster catalogue, in both Galactic hemispheres, under two nulls, and it grows with cluster mass. Sharma, Ravi and Krause (2026, arXiv:2610.37646), stacking SPICE-RACS around DESI groups and ROSAT clusters, reported 3.6σ and limits. Their estimator gives 2.9σ on this sample (follow-up of 24 November, below), so the gain here is mostly the median-based scale, which a handful of extreme sight lines cannot dominate, and partly the scaling of each cluster by its own R500; the size of the eRASS1 catalogue matters less.
 - The excess ends at R500 at this sensitivity. Beyond it, the added scatter is below 3.3 rad/m² (1–2 R500) and 2.7 rad/m² (2–4 R500) at 95%. Cluster outskirts and the gas between clusters do not show.
 - That bears on Entries 171–174. Sight lines passing within 4 R500 of an eRASS1 cluster but outside R500 carry no extra scatter, so listed clusters' outskirts are not where a growth of scatter with redshift would come from.
 - The size inside R500 is a lower bound on the true scatter. At 799.5–1087.5 MHz, sources behind the densest plasma depolarize and leave the catalogue, and the median-based scatter discounts the tail that remains.
@@ -176,3 +176,49 @@ Run from the repository root:
 - **X-COP absolute density:** 3.84 × 10⁻⁴ cm⁻³ at 0.75 R500, 2.3 times what the gas masses imply, as expected for clusters more massive than ours. It gives B = 0.99 μG.
 
 These fits use the rotation-only errors, so only their central values are quoted.
+
+## The estimator of Sharma, Ravi and Krause on this sample (24 November 2026)
+
+A review of the draft (issue #2, 22 November) asked for the estimator of Sharma, Ravi & Krause (2026, arXiv:2610.37646) to be run here. On the same SPICE-RACS rotation measures around 7,775 ROSAT clusters it gives a total S/N of 3.6, against Entry 176's t = +9.77. The rule (Workbench section 176, "The estimator of Sharma, Ravi and Krause on this sample") was fixed at 17:29 UTC on 24 November 2026 (commit `11b158a`) and published as Workbench version 203 before anything was computed. It is a check of method on data already analysed; Entry 176's decision stands whatever it gives.
+
+**Their estimator does not detect the cluster signal on this sample.** ξ is the unclipped mean of ΔRM² over source–cluster pairs, minus the same around the clusters turned in Galactic longitude (200 lists), in their five ranges of projected radius. Errors come from a jackknife over 100 k-means patches, averaged over 100 layouts.
+
+| R (kpc) | pairs | ξ (rad² m⁻⁴) | jackknife σ | shuffles: mean ± sd |
+|---|---|---|---|---|
+| 10–25 | 15 (fewer than 30: left out) | +90 | 191 | +14 ± 462 |
+| 25–63 | 33 | +1,531 | 1,048 | −8 ± 328 |
+| 63–158 | 54 | +585 | 364 | +7 ± 299 |
+| 158–398 | 140 | +386 | 175 | +1 ± 168 |
+| 398–1,000 | 748 | +83 | 78 | +3 ± 73 |
+
+χ² = 12.4 on four ranges (Hartlap factor 0.95): **S/N = 2.90** (single patch layouts give 2.24 to 3.54). 28 of 1,000 shuffles of ΔRM among the sources reach that χ² (p = 0.028). By the rule (S/N ≥ 5 to detect, ≥ 3 with p < 0.01 to see weakly), their estimator does not detect the signal. That is close to their 3.6 on ROSAT clusters, so the gap between 3.6 and 9.8 lies in the estimator, not in the cluster catalogue.
+
+**Which ingredient.** Against the same 200 turned lists, one change at a time:
+
+| | Entry 176's range A (x < 1, nearest cluster) | their ranges (pairs, fixed radii) |
+|---|---|---|
+| (1.4826 MAD)², clipped | excess +105.4, t = +9.53 | S/N 7.05 |
+| unclipped mean of ΔRM² | excess +413.1, t = +4.66 | S/N 1.78 |
+
+Not clipping the tail costs most of the significance: about half in range A, three quarters in their ranges. The fixed physical radii and pair counting cost about a quarter with the clipped scale. The range-A corner reproduces Entry 176's V = 179.28 on 589 sources exactly. Their ranges enter this table only where every turned list holds at least 10 pairs (158–398 and 398–1,000 kpc); the rule left the minimum for turned lists open.
+
+**Amplitude.** Inside R500 the unclipped excess is 3.9 times the clipped one (413 against 105 rad² m⁻⁴). The rotation added by cluster gas has a heavy tail, which a Gaussian of the clipped width does not carry.
+
+**Checks (reported only).**
+- (a) Their latitude cut, |b| > 25° for sources and clusters (80,918 sources, 7,853 clusters): S/N = 2.08 on three ranges.
+- (b) The mean e_RM² over pairs is 4.5–5.4 rad² m⁻⁴ around the clusters and 4.7–4.8 around the turned lists, so noise does not enter.
+- (c) A few sight lines carry the unclipped means. In 25–63 and 63–158 kpc one pair each carries 66% and 63% of ξ. In 158–398 kpc two pairs carry 45%. In 398–1,000 kpc the largest eight (1%) carry 187%, so without them ξ is negative.
+- (d) Out to 10 Mpc (ten ranges, 20 turned lists, one layout): S/N = 4.32 on eight ranges. Beyond 0.6 Mpc, ξ is negative: −67 ± 52, −63 ± 33, −95 ± 32 and −87 ± 32.
+
+**After the result (`sharma_posthoc.py`, `sharma_posthoc.json`).** Check (d) means the random term is high. At 2.5–10 Mpc the mean ΔRM² around the eRASS1 clusters is 209 rad² m⁻⁴, against 292 ± 61 across the 200 turned lists (−1.4 sd).
+- **It is the tail.** With |ΔRM| < 100 the values are 176 against 211 ± 24. With |ΔRM| < 50 they are 139 against 144 ± 10, and (1.4826 MAD)² gives 79.9 against 80.2 ± 6.4. The top 0.1% of sources carry 17% of the sum of ΔRM². Many of them lie in a few patches: near l = 187°, b = −35°, and at |b| = 21–25° toward the inner Galaxy. So the random term of an unclipped mean scatters by ±61 from one list of random positions to the next.
+- **Not the hemisphere.** Turning the clusters only within the eRASS1 half (l ≥ 179.5°, P1) leaves it at about 305 and gives S/N = 2.50.
+- **Local background.** Taking the background from the same clusters' pairs at 2.5–10 Mpc (P2) gives S/N = 4.39, with 18 of 1,000 shuffles at or above.
+- **Entry 176's own statistic** is not affected: against the within-half lists it gives t = +10.50 (excess +101.9). The unclipped mean in range A gives +2.92 and in their ranges 1.77, and the clipped scale in their ranges 7.12.
+
+**What it shows.** On the same rotation measures and clusters, an unclipped mean of squared RMs reaches about 3σ, and a clipped scale reaches 7 to 10σ. The cause is the same in the signal and in the background: in each, the value is set by a handful of sources. The 3.6σ of Sharma et al. and the 9.8σ here are consistent once the estimator is accounted for. Their limits rest on an unclipped mean whose excess in range A is four times the clipped one, so the two analyses weight the sight lines very differently. Their ranges are not tabulated, so their ξ cannot be compared with ours range by range.
+
+**Files.**
+- `sharma.py`: the frozen rule (`synthetic` tests the code on random ΔRM at the real positions; `run` writes `sharma.json`, about 2 minutes).
+- `sharma_posthoc.py` writes `sharma_posthoc.json`.
+- `sharma_figure.py` makes `figure2.svg`: ξ(R), and the significance of each statistic.
