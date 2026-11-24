@@ -46,6 +46,31 @@ The DESI band holds no more than expected, and an excess above +18% is excluded 
 - `results.json` (10 kB): sample counts, R, the Arc's counts and E, every null node (RA, Dec, N_band, N_oth, E), the checks and the linking result.
 - Checked on synthetic catalogues before the real run: distances 2,665.05 / 2,837.05 / 3,003.27 Mpc against the rule's 2,665 / 2,837 / 3,003; null mean ≈ 0 with Poisson-sized scatter; an injected +35% in the band returned +31% ± 12%.
 
+## Follow-up: strong absorbers, and the published members (23 November 2026)
+
+A review of the draft asked for two more counts. Their rule is in Workbench section 167 ("Two further counts"), fixed at 02:38 UTC on 23 November 2026 (commit `ba0886c`) and published as Workbench version 201 before either count was made. Only one whole-table number had been read for the power estimate: 88.3% of the sample has EW_2796 ≥ 0.6 Å, 68.0% ≥ 1.0 Å.
+
+**A. Strong absorbers: no excess.**
+
+| sample | N_band | N_exp | E | null (52 nodes) | (E − m)/sd | rank p | 95% limit |
+|---|---|---|---|---|---|---|---|
+| all (Entry 167, reproduced) | 78 | 82.8 | −0.058 | +0.013 ± 0.145 | −0.49 | 0.66 | +0.18 |
+| **EW_2796 ≥ 0.6 Å (decides)** | **69** | **75.4** | **−0.085** | **+0.013 ± 0.153** | **−0.64** | **0.72** | **+0.17** |
+| EW_2796 ≥ 1.0 Å (check) | 49 | 59.9 | −0.181 | +0.017 ± 0.170 | −1.17 | 0.91 | +0.10 |
+| EW_2796 ≥ 0.6 Å, slice 0.630–0.742 (check) | 78 | 54.2 | +0.439 | −0.012 ± 0.153 | +2.94 | 0.038 | |
+
+The excess the published members imply (`ga_members.json`, +0.37 to +0.56) lies 3.0 to 4.3 sd above the strong count (z against Entry 66's +0.34 ± 0.19: −1.74). The slice below rises from +0.36 to +0.44 with the cut, from mostly the same absorbers; one null band is higher.
+
+**B. The published members: recovered.** 37 of the 44 main members have a DESI DR1 quasar (ZWARN = 0, 0.862 < Z ≤ 3.1) within 1′, at a median 0.23′, where 4.9 would match by chance; 3 have no DESI quasar within 10′. On 21 of the 37 the Entry 167 sample has an absorber at 0.742–0.862 (z 0.773–0.850, median EW_2796 1.07 Å), against p0 = 0.7% of the field's 80,701 quasars (binomial p ≈ 2 × 10⁻³⁵); 0.65 after allowing for chance matches. Inside the band: 37 members, 30 matched, 16 recovered, 15 of them at EW_2796 ≥ 0.6 Å. So the strong count includes 15 of the Arc's own absorbers and is still six below expectation: DESI sees the Arc's absorbers, but not the excess they were taken to mark.
+
+**Implementation choices the rule left open.**
+1. The null uses the 52 nodes kept in `results.json`, at the positions `desi_arc.lattice()` gives (matched after rounding to 0.001°), for every count including the slice below. Entry 167's check (b) had applied the coverage rule to that slice afresh.
+2. The quasar catalogue lists one object under several TARGETIDs (survey validation and main survey): 434,956 rows within 1″ of an earlier row were dropped, leaving 1,371,108 quasars. A member's absorber is looked for on the kept TARGETID or within 1″ of its position, so the choice of row does not matter.
+3. No EW_2796 value was missing (0 of 191,538).
+4. `followup.py` was run twice. The second run only added descriptive fields (the members' positions relative to the band, the in-band counts and the recovered widths); every number of the first run is unchanged.
+
+**Files.** `followup.py` (both counts; reproduces Entry 167's E and null exactly before applying any cut; about 10 s), `followup.json`, `followup_figure.py` and `figure2.svg` (the members on DESI, and E against the null). It reads `data/desi-dr1-qso/QSO_cat_iron_cumulative_v0.fits` (DESI DR1 quasar catalogue, 816,203,520 bytes, sha256 `a6560430…aef4`; https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/QSO/iron/QSO_cat_iron_cumulative_v0.fits) beside the Mg II catalogue below.
+
 ## Data
 
 DESI DR1 Mg II absorber value-added catalogue v1.0 (https://data.desi.lbl.gov/doc/releases/dr1/vac/mgii-absorber/), `data/desi-dr1-mgii/MgII-Absorbers-DR1.fits`, 65,750,400 bytes, sha256 `38c2e6281ce983a2b34b5810fdf0e3021cebaad3848cfc1cca974f185901bddf` (verified against the published checksum file). Table MGII_ABSORBERS, 270,529 rows, 33 columns. Used: TARGETID, RA, DEC, ZWARN, Z_QSO, Z_MGII, LINE_SNR_MIN, TSNR2_QSO. Global summary read first: all rows SURVEY = main; ZWARN 0 for 267,484; LINE_SNR_MIN 25th percentile 3.15; 204,019 distinct TARGETIDs.
