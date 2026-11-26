@@ -23,57 +23,81 @@
   "cases": [
    {
     "sigma_b": 0.1,
-    "label": "representative",
+    "label": "flat 0.1 b",
     "destroyed_per_proton_per_H": 0.003237083382898518,
     "destroyed_reading_A": 3.810404242665317e-05,
-    "protons_per_H_for_ln3": 339.38337655188883
+    "protons_per_H_for_ln3": 339.38337655188883,
+    "shortfall_reading_A": 28831.909128351384
    },
    {
     "sigma_b": 0.5,
-    "label": "ceiling",
+    "label": "flat 0.5 b",
     "destroyed_per_proton_per_H": 0.016185416914492587,
     "destroyed_reading_A": 0.0001905202121332658,
-    "protons_per_H_for_ln3": 67.87667531037778
+    "protons_per_H_for_ln3": 67.87667531037778,
+    "shortfall_reading_A": 5766.381825670278
+   },
+   {
+    "sigma_b": 1.0,
+    "label": "flat 1 b",
+    "destroyed_per_proton_per_H": 0.032370833828985174,
+    "destroyed_reading_A": 0.0003810404242665316,
+    "protons_per_H_for_ln3": 33.93833765518889,
+    "shortfall_reading_A": 2883.190912835139
+   },
+   {
+    "sigma_b": 0.8504711053879411,
+    "label": "strong-absorption ceiling, R = 4.08 fm",
+    "sigma_max_at_10_and_23_MeV_b": [
+     0.9057114638798397,
+     0.7944663261472408
+    ],
+    "destroyed_per_proton_per_H": 0.027530458828866382,
+    "destroyed_reading_A": 0.00032406387082344724,
+    "protons_per_H_for_ln3": 39.905338864755386,
+    "shortfall_reading_A": 3390.1103689113284
    }
   ]
  },
  "above_threshold": {
   "He_per_H": 0.08187309172972256,
+  "sigma_inel_He_mb": 93.61235199081935,
+  "sigma_inel_Li_mb": 161.62890780065212,
+  "ratio_pdg": 0.5791807496854324,
+  "path_share_between_threshold_and_E_MeV": {
+   "50": 0.00422082919422795,
+   "100": 0.018992487617241486,
+   "200": 0.07080983408035345
+  },
   "cases": [
    {
     "sigma_He_over_sigma_Li": 0.2,
     "He_destroyed_for_Li_to_a_third": 0.1972584382397693,
-    "D_over_H_added": {
-     "0.01": 0.00016150158208466444,
-     "0.3": 0.0048450474625399325
-    }
+    "D_over_H_added_one_deuteron_per_100": 0.00016150158208466444
    },
    {
     "sigma_He_over_sigma_Li": 0.4,
     "He_destroyed_for_Li_to_a_third": 0.35560598502274576,
-    "D_over_H_added": {
-     "0.01": 0.0002911456143140561,
-     "0.3": 0.008734368429421683
-    }
+    "D_over_H_added_one_deuteron_per_100": 0.0002911456143140561
    },
    {
-    "sigma_He_over_sigma_Li": 0.5,
-    "He_destroyed_for_Li_to_a_third": 0.42264973081037427,
-    "D_over_H_added": {
-     "0.01": 0.00034603640180180323,
-     "0.3": 0.010381092054054096
-    }
+    "sigma_He_over_sigma_Li": 0.5791807496854324,
+    "He_destroyed_for_Li_to_a_third": 0.4707503810584137,
+    "D_over_H_added_one_deuteron_per_100": 0.0003854178913019735
    }
   ],
-  "Li_destroyed_at_most_y0.3": {
-   "He_destroyed_at_most": 3.664207539521686e-05,
-   "Li_destroyed_at_most_ratio0p4": 9.160267105023934e-05,
-   "Li_destroyed_at_most_ratio0p2": 0.00018319695105117884
-  },
-  "Li_destroyed_at_most_y0.1": {
-   "He_destroyed_at_most": 0.00010992622618565056,
-   "Li_destroyed_at_most_ratio0p4": 0.00027479290880072504,
-   "Li_destroyed_at_most_ratio0p2": 0.0005495103064587781
+  "Li_destroyed_at_most": {
+   "deuterons_per_breakup": 0.01,
+   "He_destroyed_at_most": 0.0010992622618565058,
+   "Li_at_ratio_pdg": 0.0018972026072480164,
+   "Li_at_ratio_0p2": 0.005484240810017971
   }
+ },
+ "photon_thresholds_MeV": {
+  "D(g,n)p": 2.224566326466147,
+  "7Li(g,t)4He": 2.467619955502685,
+  "7Li(g,n)6Li": 7.251091718698664,
+  "7Be(g,3He)4He": 1.5871347030046845,
+  "4He(g,p)3H": 19.813866401954623
  }
 }
