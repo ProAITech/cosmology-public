@@ -62,6 +62,7 @@ Each entry's files, in the order the entry links them. The description is the fi
 
 - `code/hybrid_redshift.py`: Hybrid redshift: 1+z = (1+z_c)(1+z_t). z_c from expansion (FLRW, matter + Lambda), z_t from photon energy loss. Family A: constant log-fraction, ln(1+z_t) = f ln(1+z).
 - `code/wide_binaries_model.js`: Forward model for the Gaia wide-binary test (Plasma Cosmology Workbench, Entry 15).
+- `code/wb_dr4.js`: the Gaia DR4 rerun of that model, as fixed before DR4 by the amendment of 26 November 2026 to Workbench Entry 114 (runs in a browser tab; loads `wide_binaries_model.js` from this repository and checks its sha256). Its DR3 rehearsal, with stand-in companion flags, is `code/wb_dr4_rehearsal.json`: a pipeline check, not a result.
 - `code/filament_foreground_check.js`: Filament-current test without the Galactic foreground map (Plasma Cosmology Workbench, Entry 15).
 
 **Entry 16 · Precession, Sirius and the force budget** (page section `#precession`)
